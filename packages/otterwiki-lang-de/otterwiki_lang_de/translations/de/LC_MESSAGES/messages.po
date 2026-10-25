@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: An Otter Wiki VERSION\n"
 "Report-Msgid-Bugs-To: https://github.com/redimp/otterwiki/issues\n"
-"POT-Creation-Date: 2026-10-25 07:48+0100\n"
+"POT-Creation-Date: 2026-10-25 09:18+0100\n"
 "PO-Revision-Date: 2026-10-25 07:31+0100\n"
 "Last-Translator: An Otter Wiki contributors\n"
 "Language: de\n"
@@ -1368,35 +1368,35 @@ msgstr "Reverse Proxy scheint korrekt konfiguriert"
 msgid "Proxy headers appear consistent."
 msgstr "Die Proxy-Header scheinen konsistent zu sein."
 
-#: otterwiki/server.py:461
+#: otterwiki/server.py:510
 #, python-format
 msgid "%(num)s week"
 msgid_plural "%(num)s weeks"
 msgstr[0] "%(num)s Woche"
 msgstr[1] "%(num)s Wochen"
 
-#: otterwiki/server.py:462
+#: otterwiki/server.py:511
 #, python-format
 msgid "%(num)s day"
 msgid_plural "%(num)s days"
 msgstr[0] "%(num)s Tag"
 msgstr[1] "%(num)s Tagen"
 
-#: otterwiki/server.py:463
+#: otterwiki/server.py:512
 #, python-format
 msgid "%(num)s hour"
 msgid_plural "%(num)s hours"
 msgstr[0] "%(num)s Stunde"
 msgstr[1] "%(num)s Stunden"
 
-#: otterwiki/server.py:464
+#: otterwiki/server.py:513
 #, python-format
 msgid "%(num)s min"
 msgid_plural "%(num)s mins"
 msgstr[0] "%(num)s Min."
 msgstr[1] "%(num)s Min."
 
-#: otterwiki/server.py:465
+#: otterwiki/server.py:514
 #, python-format
 msgid "%(num)s sec"
 msgid_plural "%(num)s secs"
@@ -4136,6 +4136,11 @@ msgstr ""
 #: otterwiki/templates/snippets/toc.html:5
 msgid "On this page"
 msgstr "Auf dieser Seite"
+
+#: otterwiki/templates/snippets/toc.html:8
+#, python-format
+msgid "This page is in %(language)s"
+msgstr "Diese Seite ist auf %(language)s"
 
 #: otterwiki/templates/syntax.html:4 otterwiki/templates/syntax.html:21
 msgid "An Otter Wiki - Markdown Guide"
