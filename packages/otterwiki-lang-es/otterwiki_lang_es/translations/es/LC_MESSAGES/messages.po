@@ -1,0 +1,4849 @@
+# Spanish translations for An Otter Wiki.
+# Copyright (C) 2026 ORGANIZATION
+# This file is distributed under the same license as the An Otter Wiki
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: An Otter Wiki VERSION\n"
+"Report-Msgid-Bugs-To: https://github.com/redimp/otterwiki/issues\n"
+"POT-Creation-Date: 2026-10-25 07:48+0100\n"
+"PO-Revision-Date: 2026-10-25 07:31+0100\n"
+"Last-Translator: An Otter Wiki contributors\n"
+"Language: es\n"
+"Language-Team: Spanish\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: otterwiki/auth.py:115 otterwiki/templates/layout.html:201
+#: otterwiki/templates/login.html:33 otterwiki/templates/lost_password.html:16
+#: otterwiki/templates/register.html:26
+#: otterwiki/templates/snippets/navbar_edit_button.html:5
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: otterwiki/auth.py:125
+msgid "You logged out successfully."
+msgstr "Has cerrado la sesión correctamente."
+
+#: otterwiki/auth.py:158
+msgid "Your email address has not been confirmed."
+msgstr "Tu dirección de correo electrónico no ha sido confirmada."
+
+#: otterwiki/auth.py:166
+msgid "You are not approved yet."
+msgstr "Tu cuenta aún no ha sido aprobada."
+
+#: otterwiki/auth.py:195
+msgid ""
+"Please update your password in Settings. The hashing method used is "
+"deprecated."
+msgstr ""
+"Actualiza tu contraseña en Configuración. El método de hash utilizado "
+"está obsoleto."
+
+#: otterwiki/auth.py:200
+msgid "You logged in successfully."
+msgstr "Has iniciado sesión correctamente."
+
+#: otterwiki/auth.py:208
+msgid "Invalid email address or password."
+msgstr "Correo electrónico o contraseña no válidos."
+
+#: otterwiki/auth.py:218 otterwiki/templates/login.html:36
+#: otterwiki/templates/lost_password.html:18
+#: otterwiki/templates/register.html:25
+msgid "Register"
+msgstr "Registrarse"
+
+#: otterwiki/auth.py:236
+#, python-format
+msgid "Request confirmation - %(sitename)s - An Otter Wiki"
+msgstr "Solicitud de confirmación - %(sitename)s - An Otter Wiki"
+
+#: otterwiki/auth.py:251
+#, python-format
+msgid ""
+"A request for confirmation has been sent to %(email)s. Please check your "
+"mailbox."
+msgstr ""
+"Se ha enviado una solicitud de confirmación a %(email)s. Revisa tu "
+"bandeja de entrada."
+
+#: otterwiki/auth.py:315
+msgid "Your account has been created. You can log in now."
+msgstr "Tu cuenta ha sido creada. Ya puedes iniciar sesión."
+
+#: otterwiki/auth.py:317 otterwiki/auth.py:367
+msgid "Your account is waiting for approval."
+msgstr "Tu cuenta está pendiente de aprobación."
+
+#: otterwiki/auth.py:334
+#, python-format
+msgid "New Account Registration - %(sitename)s - An Otter Wiki"
+msgstr "Registro de nueva cuenta - %(sitename)s - An Otter Wiki"
+
+#: otterwiki/auth.py:364
+msgid "Your email address has been confirmed. You can log in now."
+msgstr ""
+"Tu dirección de correo electrónico ha sido confirmada. Ya puedes iniciar "
+"sesión."
+
+#: otterwiki/auth.py:378 otterwiki/auth.py:486
+msgid "This email address is invalid."
+msgstr "Esta dirección de correo electrónico no es válida."
+
+#: otterwiki/auth.py:380
+msgid "This email address is already registered."
+msgstr "Esta dirección de correo electrónico ya está registrada."
+
+#: otterwiki/auth.py:382
+msgid "Please enter your name."
+msgstr "Introduce tu nombre."
+
+#: otterwiki/auth.py:384
+#, python-format
+msgid "Error: Your %(reason)s"
+msgstr "Error: %(reason)s"
+
+#: otterwiki/auth.py:386 otterwiki/auth.py:453
+msgid "The passwords do not match."
+msgstr "Las contraseñas no coinciden."
+
+#: otterwiki/auth.py:393 otterwiki/auth.py:459
+#, python-format
+msgid "The password must be at least %(length)s characters long."
+msgstr "La contraseña debe tener al menos %(length)s caracteres."
+
+#: otterwiki/auth.py:412 otterwiki/auth.py:535
+msgid "Invalid token."
+msgstr "Token no válido."
+
+#: otterwiki/auth.py:418
+msgid "Invalid user or token."
+msgstr "Usuario o token no válido."
+
+#: otterwiki/auth.py:435 otterwiki/auth.py:767
+#: otterwiki/templates/layout.html:208 otterwiki/templates/settings.html:10
+#: otterwiki/templates/settings.html:64
+msgid "Settings"
+msgstr "Configuración"
+
+#: otterwiki/auth.py:442
+msgid "Your name must be at least one character."
+msgstr "Tu nombre debe tener al menos un carácter."
+
+#: otterwiki/auth.py:448
+msgid "Your name was updated successfully."
+msgstr "Tu nombre se ha actualizado correctamente."
+
+#: otterwiki/auth.py:471
+msgid "Your password was updated successfully."
+msgstr "Tu contraseña se ha actualizado correctamente."
+
+#: otterwiki/auth.py:478
+msgid "Lost password"
+msgstr "Contraseña olvidada"
+
+#: otterwiki/auth.py:491 otterwiki/auth.py:521
+msgid "If this email is registered, you will receive a password reset link."
+msgstr ""
+"Si este correo electrónico está registrado, recibirás un enlace para "
+"restablecer la contraseña."
+
+#: otterwiki/auth.py:505 otterwiki/cli.py:429
+#, python-format
+msgid "Password Recovery - %(sitename)s - An Otter Wiki"
+msgstr "Recuperación de contraseña - %(sitename)s - An Otter Wiki"
+
+#: otterwiki/auth.py:555
+msgid "Token already used or expired."
+msgstr "El token ya se ha utilizado o ha caducado."
+
+#: otterwiki/auth.py:567
+#, python-format
+msgid "Welcome %(name)s, please update your password."
+msgstr "Bienvenido/a, %(name)s. Actualiza tu contraseña."
+
+#: otterwiki/auth.py:573
+msgid "Invalid email address."
+msgstr "Dirección de correo electrónico no válida."
+
+#: otterwiki/auth.py:844 otterwiki/auth.py:853
+msgid "Registration is disabled."
+msgstr "El registro está desactivado."
+
+#: otterwiki/helper.py:496
+#, python-format
+msgid "OtterWiki Repository Error - %(operation)s Failed"
+msgstr "Error del repositorio de OtterWiki - %(operation)s ha fallado"
+
+#: otterwiki/helper.py:502
+msgid "A repository operation has failed in your OtterWiki instance."
+msgstr "Ha fallado una operación del repositorio en tu instancia de OtterWiki."
+
+#: otterwiki/helper.py:504
+#, python-format
+msgid "Operation: %(operation)s"
+msgstr "Operación: %(operation)s"
+
+#: otterwiki/helper.py:505
+#, python-format
+msgid "Remote URL: %(url)s"
+msgstr "URL remota: %(url)s"
+
+#: otterwiki/helper.py:506 otterwiki/preferences.py:528
+#, python-format
+msgid "Error: %(error)s"
+msgstr "Error: %(error)s"
+
+#: otterwiki/helper.py:508
+msgid "Please check your repository configuration and git output."
+msgstr "Revisa la configuración del repositorio y la salida de git."
+
+#: otterwiki/pageindex.py:202
+#, python-format
+msgid "%(num)s entry: %(pages)s"
+msgid_plural "%(num)s entries: %(pages)s"
+msgstr[0] "%(num)s entrada: %(pages)s"
+msgstr[1] "%(num)s entradas: %(pages)s"
+
+#: otterwiki/pageindex.py:225
+#: otterwiki/templates/admin/sidebar_preferences.html:77
+#: otterwiki/templates/snippets/menutree.html:7
+msgid "Page Index"
+msgstr "Índice de páginas"
+
+#: otterwiki/pageindex.py:227
+#, python-format
+msgid "Page Index - %(pagename)s"
+msgstr "Índice de páginas - %(pagename)s"
+
+#: otterwiki/pluginmgmt.py:15 otterwiki/views.py:249
+msgid "Plugins"
+msgstr "Plugins"
+
+#: otterwiki/pluginmgmt.py:20
+msgid "No plugins found."
+msgstr "No se encontraron plugins."
+
+#: otterwiki/pluginmgmt.py:51
+msgid "Other Plugins"
+msgstr "Otros plugins"
+
+#: otterwiki/preferences.py:52
+#, python-format
+msgid "%(first)s and %(second)s"
+msgstr "%(first)s y %(second)s"
+
+#: otterwiki/preferences.py:99
+#, python-format
+msgid "'%(email)s' is not a valid email address."
+msgstr "«%(email)s» no es una dirección de correo electrónico válida."
+
+#: otterwiki/preferences.py:110
+msgid "Mail Server must not be empty."
+msgstr "El servidor de correo no puede estar vacío."
+
+#: otterwiki/preferences.py:122
+msgid "Mail port must be a valid port."
+msgstr "El puerto de correo debe ser un puerto válido."
+
+#: otterwiki/preferences.py:141
+msgid "Mail Preferences updated."
+msgstr "Preferencias de correo actualizadas."
+
+#: otterwiki/preferences.py:185
+msgid "Invalid value: SIDEBAR_MENUTREE_MAXDEPTH must be an integer or empty"
+msgstr ""
+"Valor no válido: SIDEBAR_MENUTREE_MAXDEPTH debe ser un número entero o "
+"estar vacío"
+
+#: otterwiki/preferences.py:207
+msgid "Sidebar Preferences updated."
+msgstr "Preferencias de la barra lateral actualizadas."
+
+#: otterwiki/preferences.py:234
+msgid "Custom home page path should not include the .md extension."
+msgstr ""
+"La ruta de la página de inicio personalizada no debe incluir la extensión"
+" .md."
+
+#: otterwiki/preferences.py:242
+msgid "Custom 404 page path should not include the .md extension."
+msgstr "La ruta de la página 404 personalizada no debe incluir la extensión .md."
+
+#: otterwiki/preferences.py:249
+msgid "Custom 404 page must be a regular wiki page, not a special page."
+msgstr ""
+"La página 404 personalizada debe ser una página normal del wiki, no una "
+"página especial."
+
+#: otterwiki/preferences.py:267
+msgid "Application Preferences updated."
+msgstr "Preferencias de la aplicación actualizadas."
+
+#: otterwiki/preferences.py:288
+msgid "Content and Editing Preferences updated."
+msgstr "Preferencias de contenido y edición actualizadas."
+
+#: otterwiki/preferences.py:328
+msgid "SSH Remote URL is required when enabling automatic pushing."
+msgstr "Se requiere la URL remota SSH para activar el push automático."
+
+#: otterwiki/preferences.py:360
+msgid "SSH Remote URL is required when enabling automatic pulling."
+msgstr "Se requiere la URL remota SSH para activar el pull automático."
+
+#: otterwiki/preferences.py:396
+msgid "Repository Management Preferences updated."
+msgstr "Preferencias de gestión del repositorio actualizadas."
+
+#: otterwiki/preferences.py:409 otterwiki/preferences.py:438
+msgid "Push functionality is not enabled"
+msgstr "La función de push no está activada"
+
+#: otterwiki/preferences.py:420 otterwiki/preferences.py:449
+#: otterwiki/preferences.py:478 otterwiki/preferences.py:505
+msgid "Repository manager not available"
+msgstr "El gestor del repositorio no está disponible"
+
+#: otterwiki/preferences.py:467 otterwiki/preferences.py:494
+msgid "Pull functionality is not enabled"
+msgstr "La función de pull no está activada"
+
+#: otterwiki/preferences.py:521 otterwiki/preferences.py:522
+msgid "OtterWiki Test Mail"
+msgstr "Correo de prueba de OtterWiki"
+
+#: otterwiki/preferences.py:530
+#, python-format
+msgid "Testmail sent to %(email)s."
+msgstr "Correo de prueba enviado a %(email)s."
+
+#: otterwiki/preferences.py:532
+#, python-format
+msgid "Invalid email address: %(email)s"
+msgstr "Dirección de correo electrónico no válida: %(email)s"
+
+#: otterwiki/preferences.py:559
+msgid "Preferences updated."
+msgstr "Preferencias actualizadas."
+
+#: otterwiki/preferences.py:571
+#, python-format
+msgid "Your account has been approved - %(sitename)s - An Otter Wiki"
+msgstr "Tu cuenta ha sido aprobada - %(sitename)s - An Otter Wiki"
+
+#: otterwiki/preferences.py:588
+msgid "You can't remove all admins"
+msgstr "No puedes quitar a todos los administradores"
+
+#: otterwiki/preferences.py:590
+msgid "You can't disable all users"
+msgstr "No puedes desactivar a todos los usuarios"
+
+#: otterwiki/preferences.py:599
+msgid "disapproved"
+msgstr "aprobación retirada"
+
+#: otterwiki/preferences.py:603 otterwiki/preferences.py:904
+msgid "approved"
+msgstr "aprobado"
+
+#: otterwiki/preferences.py:607
+msgid "disallowed read"
+msgstr "lectura denegada"
+
+#: otterwiki/preferences.py:610
+msgid "allowed read"
+msgstr "lectura permitida"
+
+#: otterwiki/preferences.py:614
+msgid "disallowed write"
+msgstr "escritura denegada"
+
+#: otterwiki/preferences.py:617
+msgid "allowed write"
+msgstr "escritura permitida"
+
+#: otterwiki/preferences.py:621
+msgid "disallowed upload"
+msgstr "subida denegada"
+
+#: otterwiki/preferences.py:624
+msgid "allowed upload"
+msgstr "subida permitida"
+
+#: otterwiki/preferences.py:628
+msgid "disabled admin"
+msgstr "administrador desactivado"
+
+#: otterwiki/preferences.py:631
+msgid "enabled admin"
+msgstr "administrador activado"
+
+#: otterwiki/preferences.py:635
+#, python-format
+msgid "%(email)s %(changes)s flag"
+msgstr "%(email)s: %(changes)s"
+
+#: otterwiki/preferences.py:662
+#: otterwiki/templates/admin/permissions_and_registration.html:16
+#: otterwiki/templates/admin/user_management.html:19
+#: otterwiki/templates/user.html:50 otterwiki/views.py:249
+msgid "Admin"
+msgstr "Administrador"
+
+#: otterwiki/preferences.py:673
+msgid "Mail preferences"
+msgstr "Preferencias de correo"
+
+#: otterwiki/preferences.py:683
+msgid "Content and Editing preferences"
+msgstr "Preferencias de contenido y edición"
+
+#: otterwiki/preferences.py:705
+#: otterwiki/templates/admin/repository_management.html:9
+#: otterwiki/templates/settings.html:41
+msgid "Repository Management"
+msgstr "Gestión del repositorio"
+
+#: otterwiki/preferences.py:717 otterwiki/templates/settings.html:53
+msgid "Permissions and Registration"
+msgstr "Permisos y registro"
+
+#: otterwiki/preferences.py:736
+#: otterwiki/templates/admin/sidebar_preferences.html:8
+#: otterwiki/templates/settings.html:29
+msgid "Sidebar Preferences"
+msgstr "Preferencias de la barra lateral"
+
+#: otterwiki/preferences.py:750
+#: otterwiki/templates/admin/user_management.html:7
+#: otterwiki/templates/settings.html:47
+msgid "User Management"
+msgstr "Gestión de usuarios"
+
+#: otterwiki/preferences.py:764 otterwiki/preferences.py:813
+msgid "User"
+msgstr "Usuario"
+
+#: otterwiki/preferences.py:793
+msgid "Name must not be empty"
+msgstr "El nombre no puede estar vacío"
+
+#: otterwiki/preferences.py:795
+msgid "User with this email exists"
+msgstr "Ya existe un usuario con este correo electrónico"
+
+#: otterwiki/preferences.py:797
+msgid "Invalid email address"
+msgstr "Dirección de correo electrónico no válida"
+
+#: otterwiki/preferences.py:801 otterwiki/preferences.py:895
+msgid "Passwords do not match"
+msgstr "Las contraseñas no coinciden"
+
+#: otterwiki/preferences.py:824
+#, python-format
+msgid "%(name)s <%(email)s> added"
+msgstr "%(name)s <%(email)s> añadido"
+
+#: otterwiki/preferences.py:829
+msgid "Unable to create user. Please check the server logs."
+msgstr "No se pudo crear el usuario. Revisa los registros del servidor."
+
+#: otterwiki/preferences.py:846
+msgid "Unable to delete yourself."
+msgstr "No puedes eliminarte a ti mismo."
+
+#: otterwiki/preferences.py:850
+#, python-format
+msgid "User '%(name)s &lt;%(email)s&gt;' deleted."
+msgstr "Usuario «%(name)s &lt;%(email)s&gt;» eliminado."
+
+#: otterwiki/preferences.py:866
+#, python-format
+msgid "renamed '%(old)s' to '%(new)s'"
+msgstr "nombre cambiado de «%(old)s» a «%(new)s»"
+
+#: otterwiki/preferences.py:873
+msgid "User name must not be empty."
+msgstr "El nombre de usuario no puede estar vacío."
+
+#: otterwiki/preferences.py:879
+#, python-format
+msgid "updated %(old)s to %(new)s"
+msgstr "%(old)s cambiado a %(new)s"
+
+#: otterwiki/preferences.py:888
+#, python-format
+msgid "'%(email)s' is not a valid email address"
+msgstr "«%(email)s» no es una dirección de correo electrónico válida"
+
+#: otterwiki/preferences.py:898
+msgid "Updated password"
+msgstr "Contraseña actualizada"
+
+#: otterwiki/preferences.py:902
+msgid "email confirmed"
+msgstr "correo confirmado"
+
+#: otterwiki/preferences.py:903
+msgid "admin"
+msgstr "administrador"
+
+#: otterwiki/preferences.py:905
+msgid "read"
+msgstr "lectura"
+
+#: otterwiki/preferences.py:906
+msgid "write"
+msgstr "escritura"
+
+#: otterwiki/preferences.py:907
+msgid "upload"
+msgstr "subida"
+
+#: otterwiki/preferences.py:911
+#, python-format
+msgid "removed %(flag)s"
+msgstr "quitado: %(flag)s"
+
+#: otterwiki/preferences.py:914
+#, python-format
+msgid "added %(flag)s"
+msgstr "añadido: %(flag)s"
+
+#: otterwiki/preferences.py:917
+#, python-format
+msgid "%(changes)s flag"
+msgstr "permisos: %(changes)s"
+
+#: otterwiki/preferences.py:936
+msgid "Unable to update the user. Please check the server logs."
+msgstr "No se pudo actualizar el usuario. Revisa los registros del servidor."
+
+#: otterwiki/renderer.py:60
+msgid "Copy to clipboard"
+msgstr "Copiar al portapapeles"
+
+#: otterwiki/renderer_embeddings.py:65
+msgid "Renders sort-, search and pageable tables."
+msgstr "Muestra tablas con ordenación, búsqueda y paginación."
+
+#: otterwiki/renderer_embeddings.py:76
+msgid ""
+"Embeddings are additions to the standard markdown syntax in An Otter "
+"Wiki. They provide capabilities beyond basic markdown, such as special "
+"layout elements, enhanced features, and entirely new functionality."
+msgstr ""
+"Las incrustaciones son añadidos a la sintaxis estándar de Markdown en An "
+"Otter Wiki. Ofrecen capacidades que van más allá del Markdown básico, "
+"como elementos de diseño especiales, funciones mejoradas y "
+"funcionalidades totalmente nuevas."
+
+#: otterwiki/renderer_embeddings.py:83
+msgid "Embeddings are an experimental feature and subject to change."
+msgstr "Las incrustaciones son una función experimental y pueden cambiar."
+
+#: otterwiki/renderer_embeddings.py:87
+msgid "Usage"
+msgstr "Uso"
+
+#: otterwiki/renderer_embeddings.py:90
+msgid ""
+"An embedding starts with <code>{{<em>EmbeddingName</em></code> and ends "
+"with <code>}}</code>. Between the opening and closing braces you can pass"
+" **options** and **args**."
+msgstr ""
+"Una incrustación empieza con <code>{{<em>EmbeddingName</em></code> y "
+"termina con <code>}}</code>. Entre las llaves de apertura y cierre puedes"
+" pasar **opciones** y **argumentos**."
+
+#: otterwiki/renderer_embeddings.py:97
+msgid ""
+"**Options** are key-value pairs separated by `|` in the form "
+"`|key=value`. Each option starts with a `|` followed by the key, an `=` "
+"and the value."
+msgstr ""
+"Las **opciones** son pares clave-valor separados por `|` con la forma "
+"`|key=value`. Cada opción empieza con un `|` seguido de la clave, un `=` "
+"y el valor."
+
+#: otterwiki/renderer_embeddings.py:105
+msgid ""
+"**Args** are any remaining lines that are not options. They form the body"
+" content of the embedding and can contain regular markdown."
+msgstr ""
+"Los **argumentos** son las demás líneas que no son opciones. Forman el "
+"contenido de la incrustación y pueden contener Markdown normal."
+
+#: otterwiki/renderer_embeddings.py:118
+msgid ""
+"**Escaping:** Use <code>\\\\|</code> to include a literal <code>|</code> "
+"in a key, value, or args. Use <code>\\\\=</code> to include a literal "
+"<code>=</code> in a key."
+msgstr ""
+"**Escape:** usa <code>\\\\|</code> para incluir un <code>|</code> literal"
+" en una clave, un valor o los argumentos. Usa <code>\\\\=</code> para "
+"incluir un <code>=</code> literal en una clave."
+
+#: otterwiki/renderer_embeddings.py:138
+msgid ""
+"The DataTable Embedding is for turning markdown tables into datatables "
+"that can be paginated, search and sorted."
+msgstr ""
+"La incrustación DataTable convierte tablas de Markdown en tablas de datos"
+" que se pueden paginar, buscar y ordenar."
+
+#: otterwiki/renderer_embeddings.py:188
+msgid "CSV attachments can also be rendered as datatables:"
+msgstr "Los adjuntos CSV también se pueden mostrar como tablas de datos:"
+
+#: otterwiki/renderer_embeddings.py:207
+msgid "Options specific to CSV:"
+msgstr "Opciones específicas de CSV:"
+
+#: otterwiki/renderer_embeddings.py:210
+msgid "filename of a CSV attachment on the page"
+msgstr "nombre de archivo de un adjunto CSV de la página"
+
+#: otterwiki/renderer_embeddings.py:213
+#, python-format
+msgid "field delimiter, default %(default)s"
+msgstr "delimitador de campos, por defecto %(default)s"
+
+#: otterwiki/renderer_embeddings.py:217
+#, python-format
+msgid "character used to quote fields, default %(default)s"
+msgstr "carácter usado para entrecomillar los campos, por defecto %(default)s"
+
+#: otterwiki/renderer_embeddings.py:223
+#, python-format
+msgid "use first row as column headers (default %(default)s)"
+msgstr "usar la primera fila como encabezados de columna (por defecto %(default)s)"
+
+#: otterwiki/renderer_embeddings.py:229
+#, python-format
+msgid ""
+"comma-separated list of columns to include, given as 1-based indices "
+"(%(one)s = first column) or header names"
+msgstr ""
+"lista separada por comas de las columnas que se incluyen, indicadas como "
+"índices empezando en 1 (%(one)s = primera columna) o como nombres de "
+"encabezado"
+
+#: otterwiki/renderer_embeddings.py:235
+#, python-format
+msgid ""
+"same as %(columns)s, but using 0-based indices (%(zero)s = first column);"
+" ignored if %(columns)s is set"
+msgstr ""
+"igual que %(columns)s, pero con índices empezando en 0 (%(zero)s = "
+"primera columna); se ignora si %(columns)s está definido"
+
+#: otterwiki/renderer_embeddings.py:242
+msgid "comma-separated list of column header labels (overrides CSV headers)"
+msgstr ""
+"lista separada por comas de etiquetas de encabezado de columna (sustituye"
+" a los encabezados del CSV)"
+
+#: otterwiki/renderer_embeddings.py:279
+#, python-format
+msgid "datatable: invalid src \"%(src)s\", path traversal is not allowed."
+msgstr ""
+"datatable: src «%(src)s» no válido, no se permite salir del directorio "
+"(path traversal)."
+
+#: otterwiki/renderer_embeddings.py:302
+#, python-format
+msgid "datatable: invalid absolute src \"%(src)s\", expected /pagepath/filename."
+msgstr ""
+"datatable: src absoluto «%(src)s» no válido, se esperaba "
+"/rutadepagina/archivo."
+
+#: otterwiki/renderer_embeddings.py:311
+msgid "no page context available."
+msgstr "no hay contexto de página disponible."
+
+#: otterwiki/renderer_embeddings.py:317
+#, python-format
+msgid "csv attachment \"%(src)s\" not found."
+msgstr "no se encontró el adjunto csv «%(src)s»."
+
+#: otterwiki/renderer_embeddings.py:508
+msgid "Render an image/images in a framed box next to the main content."
+msgstr "Muestra una o varias imágenes en un recuadro junto al contenido principal."
+
+#: otterwiki/renderer_embeddings.py:524
+msgid "Display images in frames on the wiki page."
+msgstr "Muestra imágenes enmarcadas en la página del wiki."
+
+#: otterwiki/renderer_embeddings.py:544
+#, python-format
+msgid ""
+"Use %(src)s to embed an attachment directly, with an optional %(alt)s "
+"text:"
+msgstr ""
+"Usa %(src)s para insertar directamente un adjunto, con un texto %(alt)s "
+"opcional:"
+
+#: otterwiki/renderer_embeddings.py:560
+msgid "Use an absolute path to embed an attachment from another page:"
+msgstr "Usa una ruta absoluta para insertar un adjunto de otra página:"
+
+#: otterwiki/renderer_embeddings.py:571
+msgid "External images can be embedded via a full URL:"
+msgstr "Las imágenes externas se pueden insertar mediante una URL completa:"
+
+#: otterwiki/renderer_embeddings.py:672
+#, python-format
+msgid "ImageFrame: invalid absolute src \"%(src)s\", expected /pagepath/filename."
+msgstr ""
+"ImageFrame: src absoluto «%(src)s» no válido, se esperaba "
+"/rutadepagina/archivo."
+
+#: otterwiki/renderer_embeddings.py:682
+msgid "ImageFrame |src= requires a page context."
+msgstr "ImageFrame |src= requiere un contexto de página."
+
+#: otterwiki/renderer_embeddings.py:690
+#, python-format
+msgid "ImageFrame: attachment \"%(src)s\" not found."
+msgstr "ImageFrame: no se encontró el adjunto «%(src)s»."
+
+#: otterwiki/renderer_embeddings.py:726
+msgid "Embed a video from an url or an attachment"
+msgstr "Insertar un vídeo desde una URL o un adjunto"
+
+#: otterwiki/renderer_embeddings.py:741
+msgid ""
+"Embed a video player that supports video and audio playback in your "
+"document,\n"
+"or embed a YouTube video by providing a YouTube URL."
+msgstr ""
+"Inserta en tu documento un reproductor que admite vídeo y audio,\n"
+"o inserta un vídeo de YouTube indicando una URL de YouTube."
+
+#: otterwiki/renderer_embeddings.py:760
+#, python-format
+msgid ""
+"YouTube URLs (%(long_url)s or %(short_url)s) are rendered as embedded "
+"iframes:"
+msgstr ""
+"Las URL de YouTube (%(long_url)s o %(short_url)s) se muestran como "
+"iframes incrustados:"
+
+#: otterwiki/renderer_embeddings.py:840
+msgid "No src given."
+msgstr "No se indicó src."
+
+#: otterwiki/renderer_embeddings.py:847
+msgid "Cannot mix YouTube links and file sources in the same Video embedding."
+msgstr ""
+"No se pueden mezclar enlaces de YouTube y archivos en la misma "
+"incrustación de vídeo."
+
+#: otterwiki/renderer_embeddings.py:874
+msgid "YouTube video player"
+msgstr "Reproductor de vídeo de YouTube"
+
+#: otterwiki/renderer_embeddings.py:892
+msgid "Your browser does not support the video tag."
+msgstr "Tu navegador no admite la etiqueta de vídeo."
+
+#: otterwiki/renderer_embeddings.py:905
+msgid ""
+"Render structured information next to the main content in a standardized "
+"way"
+msgstr ""
+"Muestra información estructurada junto al contenido principal de forma "
+"estandarizada"
+
+#: otterwiki/renderer_embeddings.py:921
+msgid "An element for displaying structured data in a document."
+msgstr "Un elemento para mostrar datos estructurados en un documento."
+
+#: otterwiki/renderer_embeddings.py:947
+#, python-format
+msgid ""
+"Note: On small screens the box automatically expands to full width "
+"regardless of the %(width)s option.\n"
+"The optional %(style)s allows additional inline CSS overrides."
+msgstr ""
+"Nota: en pantallas pequeñas, el recuadro ocupa automáticamente todo el "
+"ancho, sea cual sea la opción %(width)s.\n"
+"El %(style)s opcional permite sobrescribir estilos CSS en línea."
+
+#: otterwiki/renderer_embeddings.py:1092
+msgid "Render the attachments to the current page as table."
+msgstr "Muestra los adjuntos de la página actual como tabla."
+
+#: otterwiki/renderer_embeddings.py:1147 otterwiki/renderer_embeddings.py:1152
+#: otterwiki/renderer_embeddings.py:1263
+msgid "Attachment"
+msgstr "Adjunto"
+
+#: otterwiki/renderer_embeddings.py:1149 otterwiki/renderer_embeddings.py:1153
+#: otterwiki/renderer_embeddings.py:1265
+#: otterwiki/templates/attachments.html:38
+msgid "Size"
+msgstr "Tamaño"
+
+#: otterwiki/renderer_embeddings.py:1149 otterwiki/renderer_embeddings.py:1154
+#: otterwiki/renderer_embeddings.py:1267
+#: otterwiki/templates/attachments.html:39
+#: otterwiki/templates/changelog.html:73 otterwiki/templates/diff.html:64
+#: otterwiki/templates/edit_attachment.html:52
+#: otterwiki/templates/history.html:48
+msgid "Date"
+msgstr "Fecha"
+
+#: otterwiki/renderer_embeddings.py:1149
+#: otterwiki/templates/attachments.html:37
+msgid "Filename"
+msgstr "Nombre de archivo"
+
+#: otterwiki/renderer_embeddings.py:1155 otterwiki/renderer_embeddings.py:1269
+#: otterwiki/templates/attachments.html:40
+#: otterwiki/templates/changelog.html:74 otterwiki/templates/diff.html:65
+#: otterwiki/templates/edit_attachment.html:53
+#: otterwiki/templates/history.html:49
+msgid "Author"
+msgstr "Autor"
+
+#: otterwiki/renderer_embeddings.py:1156 otterwiki/renderer_embeddings.py:1271
+#: otterwiki/templates/attachments.html:41
+#: otterwiki/templates/edit_attachment.html:54
+msgid "Comment"
+msgstr "Comentario"
+
+#: otterwiki/renderer_embeddings.py:1236
+msgid "Display attachments to the current page as list."
+msgstr "Muestra los adjuntos de la página actual como lista."
+
+#: otterwiki/renderer_embeddings.py:1252
+#, python-format
+msgid ""
+"With format you can decide what is displayed in the table: %(minimal)s "
+"shows only the filenames, %(details)s shows filename, date and size, "
+"%(full)s shows all information."
+msgstr ""
+"Con format puedes decidir qué se muestra en la tabla: %(minimal)s muestra"
+" solo los nombres de archivo, %(details)s muestra el nombre de archivo, "
+"la fecha y el tamaño, y %(full)s muestra toda la información."
+
+#: otterwiki/renderer_embeddings.py:1286
+msgid "Render a page index listing all pages below the current page."
+msgstr ""
+"Muestra un índice con todas las páginas que hay por debajo de la página "
+"actual."
+
+#: otterwiki/renderer_embeddings.py:1306
+msgid ""
+"Display a page index listing pages below the current page,\n"
+"optionally filtered by a glob pattern."
+msgstr ""
+"Muestra un índice de las páginas que hay por debajo de la página actual,\n"
+"opcionalmente filtradas con un patrón glob."
+
+#: otterwiki/renderer_embeddings.py:1321 otterwiki/renderer_embeddings.py:1626
+msgid "Options:"
+msgstr "Opciones:"
+
+#: otterwiki/renderer_embeddings.py:1325
+#, python-format
+msgid ""
+"glob pattern to filter pages by title (default %(default)s, matches all "
+"pages)"
+msgstr ""
+"patrón glob para filtrar las páginas por título (por defecto %(default)s,"
+" que coincide con todas las páginas)"
+
+#: otterwiki/renderer_embeddings.py:1331
+#, python-format
+msgid ""
+"%(pageindex)s for the default letter-grouped layout, %(list)s for a plain"
+" unordered list (default %(pageindex)s)"
+msgstr ""
+"%(pageindex)s para el diseño predeterminado agrupado por letras, %(list)s"
+" para una lista simple con viñetas (por defecto %(pageindex)s)"
+
+#: otterwiki/renderer_embeddings.py:1338
+#, python-format
+msgid ""
+"show page headings (default %(default)s; for %(style_list)s headings are "
+"rendered as nested sublists)"
+msgstr ""
+"mostrar los títulos de las páginas (por defecto %(default)s; con "
+"%(style_list)s los títulos se muestran como sublistas anidadas)"
+
+#: otterwiki/renderer_embeddings.py:1345
+#, python-format
+msgid ""
+"show the toggle for the page headings (default %(default)s, ignored for "
+"%(style_list)s)"
+msgstr ""
+"mostrar el botón para mostrar u ocultar los títulos de las páginas (por "
+"defecto %(default)s; se ignora con %(style_list)s)"
+
+#: otterwiki/renderer_embeddings.py:1420 otterwiki/templates/pageindex.html:23
+msgid "Toggle page headings"
+msgstr "Mostrar/ocultar los títulos de las páginas"
+
+#: otterwiki/renderer_embeddings.py:1440
+msgid "Wrap content in a figure with an optional caption."
+msgstr "Envuelve el contenido en una figura con una leyenda opcional."
+
+#: otterwiki/renderer_embeddings.py:1456
+msgid ""
+"A container for emphasizing content blocks (code, tables, images, etc.)\n"
+"with an optional caption — similar to a LaTeX figure."
+msgstr ""
+"Un contenedor para destacar bloques de contenido (código, tablas, "
+"imágenes, etc.)\n"
+"con una leyenda opcional, similar a una figura de LaTeX."
+
+#: otterwiki/renderer_embeddings.py:1599
+msgid "Transclude another page or one of its sections."
+msgstr "Incluye otra página o una de sus secciones."
+
+#: otterwiki/renderer_embeddings.py:1614
+msgid ""
+"Include (transclude) the content of another page, or a single section of "
+"it,\n"
+"into the current page. The included content is rendered inline, "
+"seamlessly."
+msgstr ""
+"Incluye (transcluye) el contenido de otra página, o de una sola de sus "
+"secciones,\n"
+"en la página actual. El contenido incluido se muestra en línea, sin "
+"costuras."
+
+#: otterwiki/renderer_embeddings.py:1630
+#, python-format
+msgid ""
+"path of the page to include. Relative to the current page unless it\n"
+"  starts with %(slash)s (absolute from the wiki root)."
+msgstr ""
+"ruta de la página que se incluye. Es relativa a la página actual salvo "
+"que\n"
+"  empiece por %(slash)s (absoluta desde la raíz del wiki)."
+
+#: otterwiki/renderer_embeddings.py:1636
+#, python-format
+msgid ""
+"the anchor slug of the heading to include, matched the same way\n"
+"  heading links (%(link)s) are generated, independent of the heading\n"
+"  level. If omitted the whole page is included."
+msgstr ""
+"el identificador (slug) del ancla del encabezado que se incluye, obtenido"
+" igual\n"
+"  que se generan los enlaces a encabezados (%(link)s), sea cual sea el "
+"nivel\n"
+"  del encabezado. Si se omite, se incluye la página entera."
+
+#: otterwiki/renderer_embeddings.py:1642
+#, python-format
+msgid ""
+"include sub-sections of the section (default %(default)s). With\n"
+"  %(children_false)s only the content directly under the heading is "
+"included."
+msgstr ""
+"incluir las subsecciones de la sección (por defecto %(default)s). Con\n"
+"  %(children_false)s solo se incluye el contenido que está directamente "
+"bajo el encabezado."
+
+#: otterwiki/renderer_embeddings.py:1649
+#, python-format
+msgid "include the section's own heading line (default %(default)s)."
+msgstr ""
+"incluir la propia línea de encabezado de la sección (por defecto "
+"%(default)s)."
+
+#: otterwiki/renderer_embeddings.py:1655
+msgid "Limitations:"
+msgstr "Limitaciones:"
+
+#: otterwiki/renderer_embeddings.py:1659
+#, python-format
+msgid ""
+"Relative links and attachments (e.g. %(example)s) in the included\n"
+"  content resolve against the *including* page, not the source page, so "
+"they\n"
+"  may break. Use absolute paths (%(absolute)s) in content that is\n"
+"  meant to be included."
+msgstr ""
+"Los enlaces y adjuntos relativos (p. ej. %(example)s) del contenido "
+"incluido\n"
+"  se resuelven respecto a la página *que incluye*, no a la página de "
+"origen, por lo\n"
+"  que pueden romperse. Usa rutas absolutas (%(absolute)s) en el contenido"
+"\n"
+"  pensado para ser incluido."
+
+#: otterwiki/renderer_embeddings.py:1666
+msgid ""
+"Headings from included content do not appear in the including page's "
+"table\n"
+"  of contents."
+msgstr ""
+"Los encabezados del contenido incluido no aparecen en la tabla de "
+"contenidos\n"
+"  de la página que lo incluye."
+
+#: otterwiki/renderer_embeddings.py:1671
+#, python-format
+msgid ""
+"Combining a stateful embedding such as %(datatable)s with an %(include)s "
+"on the\n"
+"  same page may leave the page's own DataTable uninitialised. Put such\n"
+"  embeddings on separate pages."
+msgstr ""
+"Combinar una incrustación con estado, como %(datatable)s, con un "
+"%(include)s en la\n"
+"  misma página puede dejar sin inicializar la DataTable propia de la "
+"página. Pon esas\n"
+"  incrustaciones en páginas distintas."
+
+#: otterwiki/renderer_embeddings.py:1678
+msgid ""
+"Includes are limited to a nesting depth of 8, and include cycles (a page\n"
+"  including itself, directly or indirectly) are detected and reported "
+"instead\n"
+"  of being expanded."
+msgstr ""
+"Las inclusiones están limitadas a una profundidad de anidamiento de 8, y "
+"los ciclos de inclusión (una página\n"
+"  que se incluye a sí misma, directa o indirectamente) se detectan y se "
+"notifican en lugar\n"
+"  de expandirse."
+
+#: otterwiki/renderer_embeddings.py:1709
+#, python-format
+msgid "include: invalid src \"%(src)s\", path traversal is not allowed."
+msgstr ""
+"include: src «%(src)s» no válido, no se permite salir del directorio "
+"(path traversal)."
+
+#: otterwiki/renderer_embeddings.py:1748
+msgid "include: |src= is required."
+msgstr "include: |src= es obligatorio."
+
+#: otterwiki/renderer_embeddings.py:1759
+#, python-format
+msgid "include: page \"%(src)s\" not found."
+msgstr "include: no se encontró la página «%(src)s»."
+
+#: otterwiki/renderer_embeddings.py:1780
+msgid "none"
+msgstr "ninguna"
+
+#: otterwiki/renderer_embeddings.py:1783
+#, python-format
+msgid ""
+"include: section \"%(section)s\" not found in \"%(src)s\" (available: "
+"%(available)s)."
+msgstr ""
+"include: no se encontró la sección «%(section)s» en «%(src)s» "
+"(disponibles: %(available)s)."
+
+#: otterwiki/renderer_embeddings.py:1796
+#, python-format
+msgid "include: cycle detected including \"%(src)s\"."
+msgstr "include: se detectó un ciclo al incluir «%(src)s»."
+
+#: otterwiki/renderer_embeddings.py:1801
+#, python-format
+msgid "include: maximum include depth (%(depth)s) exceeded."
+msgstr "include: se superó la profundidad máxima de inclusión (%(depth)s)."
+
+#: otterwiki/renderer_plugins.py:719 otterwiki/templates/editor.html:191
+#: otterwiki/templates/snippets/syntax.html:474
+msgid "Note"
+msgstr "Nota"
+
+#: otterwiki/renderer_plugins.py:720 otterwiki/templates/editor.html:197
+msgid "Tip"
+msgstr "Consejo"
+
+#: otterwiki/renderer_plugins.py:721 otterwiki/templates/editor.html:203
+msgid "Important"
+msgstr "Importante"
+
+#: otterwiki/renderer_plugins.py:722 otterwiki/templates/editor.html:209
+msgid "Warning"
+msgstr "Advertencia"
+
+#: otterwiki/renderer_plugins.py:723 otterwiki/templates/editor.html:215
+msgid "Caution"
+msgstr "Precaución"
+
+#: otterwiki/renderer_plugins.py:1106
+#, python-format
+msgid "%(embedding)s Error: %(error)s"
+msgstr "Error de %(embedding)s: %(error)s"
+
+#: otterwiki/renderer_plugins.py:1116
+#, python-format
+msgid "Unknown Embedding:&nbsp;%(embedding)s"
+msgstr "Incrustación desconocida:&nbsp;%(embedding)s"
+
+#: otterwiki/repomgmt.py:133 otterwiki/repomgmt.py:196
+#: otterwiki/repomgmt.py:247
+msgid "No remote URL provided"
+msgstr "No se indicó ninguna URL remota"
+
+#: otterwiki/repomgmt.py:147 otterwiki/repomgmt.py:210
+#: otterwiki/repomgmt.py:261
+msgid "No active branch found"
+msgstr "No se encontró ninguna rama activa"
+
+#: otterwiki/repomgmt.py:169
+msgid "Force push completed successfully"
+msgstr "Push forzado completado correctamente"
+
+#: otterwiki/repomgmt.py:171
+msgid "Push completed successfully"
+msgstr "Push completado correctamente"
+
+#: otterwiki/repomgmt.py:223
+msgid "Pull completed successfully"
+msgstr "Pull completado correctamente"
+
+#: otterwiki/repomgmt.py:288
+msgid "Hard reset completed successfully"
+msgstr "Reset completo (hard reset) completado correctamente"
+
+#: otterwiki/security_check.py:156
+#: otterwiki/templates/tools/housekeeping.html:242
+msgid ""
+"Severity reduced because the wiki was accessed via a loopback host; if "
+"this server is reachable from elsewhere, treat this as critical."
+msgstr ""
+"Gravedad reducida porque se accedió al wiki a través de un host de "
+"loopback; si este servidor es accesible desde otros lugares, trátalo como"
+" crítico."
+
+#: otterwiki/security_check.py:174
+#, python-format
+msgid ""
+"Anonymous users have write access to your wiki, allowing anyone to create"
+" or edit pages without logging in. Unless this is intentional, it is a "
+"significant security risk. This can be changed on the <a "
+"href=\"%(url)s\">Permissions and Registration</a> page."
+msgstr ""
+"Los usuarios anónimos tienen acceso de escritura a tu wiki, lo que "
+"permite a cualquiera crear o editar páginas sin iniciar sesión. Salvo que"
+" sea intencionado, es un riesgo de seguridad importante. Puedes cambiarlo"
+" en la página <a href=\"%(url)s\">Permisos y registro</a>."
+
+#: otterwiki/security_check.py:184
+msgid "Anonymous users can edit the wiki"
+msgstr "Los usuarios anónimos pueden editar el wiki"
+
+#: otterwiki/security_check.py:189
+msgid "Anonymous write access is disabled"
+msgstr "El acceso de escritura anónimo está desactivado"
+
+#: otterwiki/security_check.py:190
+msgid "Write access requires an authenticated account."
+msgstr "El acceso de escritura requiere una cuenta autenticada."
+
+#: otterwiki/security_check.py:201
+#, python-format
+msgid ""
+"Anonymous users have file upload access to your wiki, allowing anyone to "
+"upload files without logging in. Unless this is intentional, it is a "
+"significant security risk. This can be changed on the <a "
+"href=\"%(url)s\">Permissions and Registration</a> page."
+msgstr ""
+"Los usuarios anónimos pueden subir archivos a tu wiki, lo que permite a "
+"cualquiera subir archivos sin iniciar sesión. Salvo que sea intencionado,"
+" es un riesgo de seguridad importante. Puedes cambiarlo en la página <a "
+"href=\"%(url)s\">Permisos y registro</a>."
+
+#: otterwiki/security_check.py:211
+msgid "Anonymous users can upload files"
+msgstr "Los usuarios anónimos pueden subir archivos"
+
+#: otterwiki/security_check.py:216
+msgid "Anonymous upload access is disabled"
+msgstr "La subida anónima está desactivada"
+
+#: otterwiki/security_check.py:217
+msgid "Attachment uploads require an authenticated account."
+msgstr "Subir adjuntos requiere una cuenta autenticada."
+
+#: otterwiki/security_check.py:227
+msgid "Server name not configured"
+msgstr "Nombre del servidor no configurado"
+
+#: otterwiki/security_check.py:229
+#, python-format
+msgid ""
+"The <code>SERVER_NAME</code> configuration variable is not set. This may "
+"lead to issues depending on your reverse proxy configuration. See <a "
+"href=\"%(flask_url)s\">Flask documentation</a> for details. This can be "
+"changed on the <a href=\"%(url)s\">Application Preferences</a> page."
+msgstr ""
+"La variable de configuración <code>SERVER_NAME</code> no está definida. "
+"Esto puede causar problemas según la configuración de tu proxy inverso. "
+"Consulta la <a href=\"%(flask_url)s\">documentación de Flask</a> para más"
+" detalles. Puedes cambiarlo en la página <a href=\"%(url)s\">Preferencias"
+" de la aplicación</a>."
+
+#: otterwiki/security_check.py:241
+msgid "Server name is configured"
+msgstr "El nombre del servidor está configurado"
+
+#: otterwiki/security_check.py:243
+msgid "The <code>SERVER_NAME</code> configuration variable is set."
+msgstr "La variable de configuración <code>SERVER_NAME</code> está definida."
+
+#: otterwiki/security_check.py:258
+msgid "Fully open registrations"
+msgstr "Registros totalmente abiertos"
+
+#: otterwiki/security_check.py:260
+#, python-format
+msgid ""
+"Your wiki allows unlimited registrations without requiring email "
+"confirmation or manual approval. This means anyone can create accounts "
+"without restrictions, potentially flooding the wiki with spam users. This"
+" can be changed on the <a href=\"%(url)s\">Permissions and "
+"Registration</a> page."
+msgstr ""
+"Tu wiki permite registros ilimitados sin confirmación por correo "
+"electrónico ni aprobación manual. Esto significa que cualquiera puede "
+"crear cuentas sin restricciones, lo que podría llenar el wiki de usuarios"
+" de spam. Puedes cambiarlo en la página <a href=\"%(url)s\">Permisos y "
+"registro</a>."
+
+#: otterwiki/security_check.py:271
+msgid "Registrations are restricted"
+msgstr "Los registros están restringidos"
+
+#: otterwiki/security_check.py:273
+msgid ""
+"New registrations are disabled or require email confirmation or manual "
+"approval."
+msgstr ""
+"Los nuevos registros están desactivados o requieren confirmación por "
+"correo electrónico o aprobación manual."
+
+#: otterwiki/security_check.py:287
+msgid "Plugins are active"
+msgstr "Hay plugins activos"
+
+#: otterwiki/security_check.py:289
+#, python-format
+msgid ""
+"You are using wiki plugins. Note that there are little to no restrictions"
+" on what a plugin can do, and third-party plugins are not reviewed for "
+"security by an Otterwiki developers. Your active plugins: "
+"<strong>%(plugins)s</strong>."
+msgstr ""
+"Estás usando plugins del wiki. Ten en cuenta que apenas hay restricciones"
+" sobre lo que puede hacer un plugin, y los desarrolladores de Otterwiki "
+"no revisan la seguridad de los plugins de terceros. Tus plugins activos: "
+"<strong>%(plugins)s</strong>."
+
+#: otterwiki/security_check.py:312
+msgid "Custom CSS is being used"
+msgstr "Se está usando CSS personalizado"
+
+#: otterwiki/security_check.py:314
+msgid ""
+"You have custom CSS rules defined in <code>custom.css</code>. If this is "
+"intentional, this notice can be ignored."
+msgstr ""
+"Tienes reglas CSS personalizadas definidas en <code>custom.css</code>. Si"
+" es intencionado, puedes ignorar este aviso."
+
+#: otterwiki/security_check.py:336
+msgid "Custom JavaScript is being used"
+msgstr "Se está usando JavaScript personalizado"
+
+#: otterwiki/security_check.py:338
+msgid ""
+"You have custom JavaScript code defined in <code>custom.js</code>. If "
+"this is intentional, this notice can be ignored."
+msgstr ""
+"Tienes código JavaScript personalizado definido en "
+"<code>custom.js</code>. Si es intencionado, puedes ignorar este aviso."
+
+#: otterwiki/security_check.py:383
+msgid "Custom HTML is being used"
+msgstr "Se está usando HTML personalizado"
+
+#: otterwiki/security_check.py:385
+#, python-format
+msgid ""
+"You have custom HTML defined in: <strong>%(files)s</strong>. If this is "
+"intentional, this notice can be ignored."
+msgstr ""
+"Tienes HTML personalizado definido en: <strong>%(files)s</strong>. Si es "
+"intencionado, puedes ignorar este aviso."
+
+#: otterwiki/security_check.py:399
+msgid "Custom HTML allowlist is configured"
+msgstr "Hay una lista de HTML permitido personalizada"
+
+#: otterwiki/security_check.py:401
+msgid ""
+"Your <code>RENDERER_HTML_ALLOWLIST</code> is not empty, which allows "
+"potentially unsafe additional HTML tags and attributes in wiki content. "
+"If this is intentional, this notice can be ignored."
+msgstr ""
+"Tu <code>RENDERER_HTML_ALLOWLIST</code> no está vacía, lo que permite "
+"etiquetas y atributos HTML adicionales potencialmente inseguros en el "
+"contenido del wiki. Si es intencionado, puedes ignorar este aviso."
+
+#: otterwiki/security_check.py:431
+msgid "Misconfigured reverse proxy"
+msgstr "Proxy inverso mal configurado"
+
+#: otterwiki/security_check.py:435
+msgid "Missing or misconfigured reverse proxy"
+msgstr "Proxy inverso ausente o mal configurado"
+
+#: otterwiki/security_check.py:438
+msgid ""
+"Your wiki is directly accessible from the internet without a reverse "
+"proxy or the reverse proxy is misconfigured. This is not recommended as "
+"it exposes the application server directly."
+msgstr ""
+"Tu wiki es accesible directamente desde Internet sin un proxy inverso, o "
+"el proxy inverso está mal configurado. No se recomienda, ya que expone "
+"directamente el servidor de la aplicación."
+
+#: otterwiki/security_check.py:449
+msgid ""
+"<code>X-Forwarded-For</code> is present but <code>X-Forwarded-"
+"Proto</code> is not, so the wiki cannot determine the original protocol."
+msgstr ""
+"<code>X-Forwarded-For</code> está presente pero <code>X-Forwarded-"
+"Proto</code> no, por lo que el wiki no puede determinar el protocolo "
+"original."
+
+#: otterwiki/security_check.py:470
+msgid ""
+"Your wiki does not appear to be running behind a properly configured "
+"reverse proxy:"
+msgstr ""
+"Tu wiki no parece ejecutarse detrás de un proxy inverso correctamente "
+"configurado:"
+
+#: otterwiki/security_check.py:475
+#, python-format
+msgid ""
+"Please consult the documentation for <a "
+"href=\"%(installation_url)s\">example reverse proxy configurations</a> "
+"and <a href=\"%(configuration_url)s\">required wiki parameters</a>."
+msgstr ""
+"Consulta la documentación para ver <a "
+"href=\"%(installation_url)s\">ejemplos de configuración del proxy "
+"inverso</a> y los <a href=\"%(configuration_url)s\">parámetros necesarios"
+" del wiki</a>."
+
+#: otterwiki/security_check.py:488
+msgid "Reverse proxy looks correctly configured"
+msgstr "El proxy inverso parece correctamente configurado"
+
+#: otterwiki/security_check.py:489
+msgid "Proxy headers appear consistent."
+msgstr "Las cabeceras del proxy parecen coherentes."
+
+#: otterwiki/server.py:461
+#, python-format
+msgid "%(num)s week"
+msgid_plural "%(num)s weeks"
+msgstr[0] "%(num)s semana"
+msgstr[1] "%(num)s semanas"
+
+#: otterwiki/server.py:462
+#, python-format
+msgid "%(num)s day"
+msgid_plural "%(num)s days"
+msgstr[0] "%(num)s día"
+msgstr[1] "%(num)s días"
+
+#: otterwiki/server.py:463
+#, python-format
+msgid "%(num)s hour"
+msgid_plural "%(num)s hours"
+msgstr[0] "%(num)s hora"
+msgstr[1] "%(num)s horas"
+
+#: otterwiki/server.py:464
+#, python-format
+msgid "%(num)s min"
+msgid_plural "%(num)s mins"
+msgstr[0] "%(num)s min"
+msgstr[1] "%(num)s min"
+
+#: otterwiki/server.py:465
+#, python-format
+msgid "%(num)s sec"
+msgid_plural "%(num)s secs"
+msgstr[0] "%(num)s s"
+msgstr[1] "%(num)s s"
+
+#: otterwiki/templates/about.html:4 otterwiki/templates/layout.html:178
+#: otterwiki/templates/snippets/documentation-menu.html:47
+msgid "About An Otter Wiki"
+msgstr "Acerca de An Otter Wiki"
+
+#: otterwiki/templates/about.html:10
+msgid "About An Otterwiki"
+msgstr "Acerca de An Otter Wiki"
+
+#: otterwiki/templates/about.html:11
+msgid ""
+"An Otter Wiki is a tool for collaborative content management. Written in "
+"python using Flask."
+msgstr ""
+"An Otter Wiki es una herramienta de gestión colaborativa de contenidos. "
+"Escrita en Python con Flask."
+
+#: otterwiki/templates/about.html:20
+#, python-format
+msgid "Version %(version)s"
+msgstr "Versión %(version)s"
+
+#: otterwiki/templates/admin.html:10 otterwiki/templates/settings.html:23
+msgid "Application Preferences"
+msgstr "Preferencias de la aplicación"
+
+#: otterwiki/templates/admin.html:13
+msgid "Site Name"
+msgstr "Nombre del sitio"
+
+#: otterwiki/templates/admin.html:16
+msgid ""
+"The name of the site, displayed on the top left of the page and in the "
+"subject of all emails."
+msgstr ""
+"El nombre del sitio, que se muestra arriba a la izquierda de la página y "
+"en el asunto de todos los correos."
+
+#: otterwiki/templates/admin.html:21
+msgid "Server Name"
+msgstr "Nombre del servidor"
+
+#: otterwiki/templates/admin.html:24
+msgid ""
+"The name of the domain running the site. This is <em>optional</em> when "
+"running behind a well configured reverse proxy. Used for external URLs."
+msgstr ""
+"El nombre del dominio en el que se ejecuta el sitio. Es <em>opcional</em>"
+" cuando se ejecuta detrás de un proxy inverso bien configurado. Se usa "
+"para las URL externas."
+
+#: otterwiki/templates/admin.html:29
+msgid "Site Description"
+msgstr "Descripción del sitio"
+
+#: otterwiki/templates/admin.html:30 otterwiki/templates/layout.html:21
+#: otterwiki/templates/layout.html:22 otterwiki/templates/layout.html:121
+msgid "A minimalistic wiki powered by python, markdown and git."
+msgstr "Un wiki minimalista basado en Python, Markdown y Git."
+
+#: otterwiki/templates/admin.html:32
+msgid "The default description used in <code>&lt;meta&gt;</code> tags."
+msgstr ""
+"La descripción predeterminada que se usa en las etiquetas "
+"<code>&lt;meta&gt;</code>."
+
+#: otterwiki/templates/admin.html:37
+msgid "Site Logo"
+msgstr "Logotipo del sitio"
+
+#: otterwiki/templates/admin.html:40
+msgid ""
+"Configure via an url to the image that is displayed in the navbar on top "
+"of every page."
+msgstr ""
+"Indica la URL de la imagen que se muestra en la barra de navegación en la"
+" parte superior de cada página."
+
+#: otterwiki/templates/admin.html:41
+msgid ""
+"This can be an attachment, e.g. <code>logo.png</code> attached to "
+"<code>Home</code> can be used as <code>/Home/a/logo.png</code>"
+msgstr ""
+"Puede ser un adjunto, p. ej. <code>logo.png</code> adjunto a "
+"<code>Home</code> se puede usar como <code>/Home/a/logo.png</code>"
+
+#: otterwiki/templates/admin.html:46
+msgid "Site Language"
+msgstr "Idioma del sitio"
+
+#: otterwiki/templates/admin.html:49
+msgid ""
+"Configures the <code>lang</code> attribute of the "
+"<code>&lt;html&gt;</code> lang used in the wiki. For example, "
+"<code>en</code> specifies English, but <code>en-GB</code> and <code>en-"
+"US</code> more precisely specify British English and American English, "
+"respectively."
+msgstr ""
+"Configura el atributo <code>lang</code> de la etiqueta "
+"<code>&lt;html&gt;</code> usado en el wiki. Por ejemplo, <code>en</code> "
+"indica inglés, mientras que <code>en-GB</code> y <code>en-US</code> "
+"indican con más precisión inglés británico e inglés estadounidense, "
+"respectivamente."
+
+#: otterwiki/templates/admin.html:50
+msgid ""
+"It is also the language of the interface when a translation is available,"
+" English otherwise."
+msgstr ""
+"También es el idioma de la interfaz cuando hay una traducción disponible;"
+" si no, se usa el inglés."
+
+#: otterwiki/templates/admin.html:57
+msgid "Show the interface in the language of the browser."
+msgstr "Mostrar la interfaz en el idioma del navegador."
+
+#: otterwiki/templates/admin.html:60
+msgid ""
+"When a translation is available for the language the visitor's browser "
+"prefers, it is used instead of the Site Language."
+msgstr ""
+"Si hay una traducción disponible para el idioma preferido del navegador "
+"del visitante, se usa en lugar del idioma del sitio."
+
+#: otterwiki/templates/admin.html:67
+msgid "Let visitors pick the language of the interface."
+msgstr "Permitir que los visitantes elijan el idioma de la interfaz."
+
+#: otterwiki/templates/admin.html:70
+msgid ""
+"Adds the available languages to the menu on top of every page. The choice"
+" is kept in a cookie and wins over the browser and the Site Language."
+msgstr ""
+"Añade los idiomas disponibles al menú de la parte superior de cada "
+"página. La elección se guarda en una cookie y tiene prioridad sobre el "
+"navegador y el idioma del sitio."
+
+#: otterwiki/templates/admin.html:75
+msgid "Robot Crawlers"
+msgstr "Robots rastreadores"
+
+#: otterwiki/templates/admin.html:77
+msgid "Allow"
+msgstr "Permitir"
+
+#: otterwiki/templates/admin.html:77
+msgid "Disallow"
+msgstr "No permitir"
+
+#: otterwiki/templates/admin.html:82
+msgid ""
+"Configure how the wiki indicates to visiting robots whether they are "
+"allowed to crawl the content."
+msgstr ""
+"Configura cómo indica el wiki a los robots que lo visitan si pueden "
+"rastrear el contenido."
+
+#: otterwiki/templates/admin.html:87
+msgid "Custom Home Page"
+msgstr "Página de inicio personalizada"
+
+#: otterwiki/templates/admin.html:88
+msgid "Leave empty for default (Home)"
+msgstr "Deja vacío para usar la predeterminada (Home)"
+
+#: otterwiki/templates/admin.html:90
+msgid ""
+"Configure which page is displayed when visiting the root URL "
+"(<code>/</code>)."
+msgstr "Configura qué página se muestra al visitar la URL raíz (<code>/</code>)."
+
+#: otterwiki/templates/admin.html:92
+msgid "<strong>Empty</strong>: Use the default <code>Home</code> page"
+msgstr "<strong>Vacío</strong>: usa la página <code>Home</code> predeterminada"
+
+#: otterwiki/templates/admin.html:93
+msgid ""
+"<strong>Page path</strong>: Use a specific page from the repository (e.g."
+" <code>Welcome</code> or <code>Docs/Index</code>)"
+msgstr ""
+"<strong>Ruta de página</strong>: usa una página concreta del repositorio "
+"(p. ej. <code>Welcome</code> o <code>Docs/Index</code>)"
+
+#: otterwiki/templates/admin.html:94
+msgid ""
+"<strong>Special page</strong>: Redirect to a special page like "
+"<code>/-/index</code> or <code>/-/changelog</code>"
+msgstr ""
+"<strong>Página especial</strong>: redirige a una página especial como "
+"<code>/-/index</code> o <code>/-/changelog</code>"
+
+#: otterwiki/templates/admin.html:96
+msgid "Note: Do not include the <code>.md</code> extension for regular pages."
+msgstr "Nota: no incluyas la extensión <code>.md</code> en las páginas normales."
+
+#: otterwiki/templates/admin.html:101
+msgid "Custom 404 Page"
+msgstr "Página 404 personalizada"
+
+#: otterwiki/templates/admin.html:102
+msgid "Leave empty for the default message"
+msgstr "Deja vacío para usar el mensaje predeterminado"
+
+#: otterwiki/templates/admin.html:104
+msgid ""
+"A wiki page (e.g. <code>Meta/NotFound</code>) whose content is displayed "
+"when a page does not exist."
+msgstr ""
+"Una página del wiki (p. ej. <code>Meta/NotFound</code>) cuyo contenido se"
+" muestra cuando una página no existe."
+
+#: otterwiki/templates/admin.html:105
+msgid "The link to create the missing page is still shown below it."
+msgstr "Debajo se sigue mostrando el enlace para crear la página que falta."
+
+#: otterwiki/templates/admin.html:106
+msgid "Note: Do not include the <code>.md</code> extension."
+msgstr "Nota: no incluyas la extensión <code>.md</code>."
+
+#: otterwiki/templates/admin.html:111
+msgid "Site Icon (favicon)"
+msgstr "Icono del sitio (favicon)"
+
+#: otterwiki/templates/admin.html:114
+msgid ""
+"Configure via an url to the image that is displayed as favicon (tab icon,"
+" URL icon, bookmark icon)."
+msgstr ""
+"Indica la URL de la imagen que se muestra como favicon (icono de la "
+"pestaña, de la URL y de los marcadores)."
+
+#: otterwiki/templates/admin.html:115
+msgid ""
+"This can be an attachment, e.g. <code>favicon-32x32.png</code> attached "
+"to <code>Home</code> can be used as <code>/Home/a/favicon-"
+"32x32.png</code>"
+msgstr ""
+"Puede ser un adjunto, p. ej. <code>favicon-32x32.png</code> adjunto a "
+"<code>Home</code> se puede usar como <code>/Home/a/favicon-"
+"32x32.png</code>"
+
+#: otterwiki/templates/admin.html:122
+msgid "Hide the logo of An Otter Wiki in the sidebar."
+msgstr "Ocultar el logotipo de An Otter Wiki en la barra lateral."
+
+#: otterwiki/templates/admin.html:125
+msgid "An Otter Wiki logo will not be shown."
+msgstr "No se mostrará el logotipo de An Otter Wiki."
+
+#: otterwiki/templates/admin.html:132
+msgid "Open external links in a new tab."
+msgstr "Abrir los enlaces externos en una pestaña nueva."
+
+#: otterwiki/templates/admin.html:135
+msgid "External links open in new browser tab."
+msgstr "Los enlaces externos se abren en una pestaña nueva del navegador."
+
+#: otterwiki/templates/admin.html:140
+#: otterwiki/templates/admin/content_and_editing.html:64
+#: otterwiki/templates/admin/permissions_and_registration.html:87
+#: otterwiki/templates/admin/repository_management.html:137
+#: otterwiki/templates/admin/sidebar_preferences.html:116
+msgid "Save Preferences"
+msgstr "Guardar preferencias"
+
+#: otterwiki/templates/admin/content_and_editing.html:9
+msgid "Content and Editing Preferences"
+msgstr "Preferencias de contenido y edición"
+
+#: otterwiki/templates/admin/content_and_editing.html:11
+#: otterwiki/templates/attachments.html:22 otterwiki/templates/delete.html:19
+#: otterwiki/templates/edit_attachment.html:18
+#: otterwiki/templates/edit_attachment.html:37
+#: otterwiki/templates/rename.html:90
+msgid "Commit message"
+msgstr "Mensaje de commit"
+
+#: otterwiki/templates/admin/content_and_editing.html:13
+msgid "Required"
+msgstr "Obligatorio"
+
+#: otterwiki/templates/admin/content_and_editing.html:13
+msgid "Optional (empty commit messages are allowed)"
+msgstr "Opcional (se permiten mensajes de commit vacíos)"
+
+#: otterwiki/templates/admin/content_and_editing.html:13
+msgid ""
+"Disabled (Changes saved with the default commit message, which can be "
+"empty)"
+msgstr ""
+"Desactivado (los cambios se guardan con el mensaje de commit "
+"predeterminado, que puede estar vacío)"
+
+#: otterwiki/templates/admin/content_and_editing.html:20
+msgid "Default commit message"
+msgstr "Mensaje de commit predeterminado"
+
+#: otterwiki/templates/admin/content_and_editing.html:22
+#, python-format
+msgid ""
+"When commit messages are disabled or optional, this provides the default "
+"value in these scenarios. <code>strftime</code> <a "
+"href=\"https://docs.python.org/3/library/datetime.html#strftime-and-"
+"strptime-format-codes\">format codes</a> are parsed and formated, "
+"additionally <code>%(code)s</code> is replaced with the name of the page."
+msgstr ""
+"Cuando los mensajes de commit están desactivados o son opcionales, este "
+"es el valor predeterminado en esos casos. Se interpretan y aplican los <a"
+" href=\"https://docs.python.org/3/library/datetime.html#strftime-and-"
+"strptime-format-codes\">códigos de formato</a> de <code>strftime</code>; "
+"además, <code>%(code)s</code> se sustituye por el nombre de la página."
+
+#: otterwiki/templates/admin/content_and_editing.html:30
+msgid "Retain page name case."
+msgstr "Conservar mayúsculas y minúsculas en el nombre de la página."
+
+#: otterwiki/templates/admin/content_and_editing.html:32
+msgid ""
+"Enable this to retain upper and lower case of the page name in the "
+"filename used for storing the page. <strong>Important:</strong> If pages "
+"are created while this mode is active, they may not be found as soon as "
+"the mode is deactivated again. Make sure to rename the pages to all "
+"lowercase before deactivation."
+msgstr ""
+"Activa esta opción para conservar las mayúsculas y minúsculas del nombre "
+"de la página en el nombre del archivo donde se guarda. "
+"<strong>Importante:</strong> si se crean páginas mientras este modo está "
+"activo, puede que no se encuentren en cuanto se desactive. Asegúrate de "
+"renombrar las páginas a minúsculas antes de desactivarlo."
+
+#: otterwiki/templates/admin/content_and_editing.html:42
+msgid "Treat underscore as space for titles."
+msgstr "Tratar el guion bajo como espacio en los títulos."
+
+#: otterwiki/templates/admin/content_and_editing.html:44
+msgid ""
+"Enable this to replace underscores (_) with spaces in page titles, "
+"breadcrumbs, and page index. For example, \"Page_With_Underscores\" will "
+"be displayed as \"Page With Underscores\"."
+msgstr ""
+"Activa esta opción para sustituir los guiones bajos (_) por espacios en "
+"los títulos de las páginas, las rutas de navegación y el índice de "
+"páginas. Por ejemplo, \"Page_With_Underscores\" se mostrará como \"Page "
+"With Underscores\"."
+
+#: otterwiki/templates/admin/content_and_editing.html:50
+msgid "WikiLink Style"
+msgstr "Estilo de WikiLink"
+
+#: otterwiki/templates/admin/content_and_editing.html:52
+#, python-format
+msgid "%(syntax)s - like Markdown links %(example)s"
+msgstr "%(syntax)s - como los enlaces de Markdown %(example)s"
+
+#: otterwiki/templates/admin/content_and_editing.html:52
+#, python-format
+msgid "%(syntax)s - compatibility mode"
+msgstr "%(syntax)s - modo de compatibilidad"
+
+#: otterwiki/templates/admin/content_and_editing.html:57
+msgid ""
+"The WikiLink Style only changes the rendering of the "
+"<code>[[Wikilink]]</code>, no content will be changed. The compatibility "
+"mode is for imported content or matching the style users got used to."
+msgstr ""
+"El estilo de WikiLink solo cambia cómo se muestra el "
+"<code>[[Wikilink]]</code>; no se modifica ningún contenido. El modo de "
+"compatibilidad sirve para contenido importado o para mantener el estilo "
+"al que están acostumbrados los usuarios."
+
+#: otterwiki/templates/admin/mail_preferences.html:8
+#: otterwiki/templates/settings.html:59
+msgid "Mail Preferences"
+msgstr "Preferencias de correo"
+
+#: otterwiki/templates/admin/mail_preferences.html:11
+msgid "Mail Sender"
+msgstr "Remitente del correo"
+
+#: otterwiki/templates/admin/mail_preferences.html:17
+msgid "Mail Server"
+msgstr "Servidor de correo"
+
+#: otterwiki/templates/admin/mail_preferences.html:23
+msgid "Mail Server Port"
+msgstr "Puerto del servidor de correo"
+
+#: otterwiki/templates/admin/mail_preferences.html:29
+msgid "Mail Username"
+msgstr "Usuario del correo"
+
+#: otterwiki/templates/admin/mail_preferences.html:35
+msgid "Mail Password"
+msgstr "Contraseña del correo"
+
+#: otterwiki/templates/admin/mail_preferences.html:41
+msgid "Mail Security"
+msgstr "Seguridad del correo"
+
+#: otterwiki/templates/admin/mail_preferences.html:43
+msgid "Not encrypted"
+msgstr "Sin cifrar"
+
+#: otterwiki/templates/admin/mail_preferences.html:50
+msgid "Save Mail Preferences"
+msgstr "Guardar preferencias de correo"
+
+#: otterwiki/templates/admin/mail_preferences.html:54
+msgid "Test Mail Preferences"
+msgstr "Probar preferencias de correo"
+
+#: otterwiki/templates/admin/mail_preferences.html:57
+msgid "Test Recipient"
+msgstr "Destinatario de prueba"
+
+#: otterwiki/templates/admin/mail_preferences.html:63
+msgid "Send Test Mail"
+msgstr "Enviar correo de prueba"
+
+#: otterwiki/templates/admin/permissions_and_registration.html:8
+msgid "Permissions and Registration Preferences"
+msgstr "Preferencias de permisos y registro"
+
+#: otterwiki/templates/admin/permissions_and_registration.html:11
+#, python-format
+msgid ""
+"<em>Note:</em> To configure privileges per user, set Read Access, Write "
+"Access and Attachment management to <strong>Admin</strong> and configure "
+"Read, Write, Upload per user via <a href=\"%(url)s\">User Management</a>."
+msgstr ""
+"<em>Nota:</em> para configurar los privilegios por usuario, establece "
+"Acceso de lectura, Acceso de escritura y Gestión de adjuntos en "
+"<strong>Administrador</strong> y configura Lectura, Escritura y Subida "
+"por usuario en <a href=\"%(url)s\">Gestión de usuarios</a>."
+
+#: otterwiki/templates/admin/permissions_and_registration.html:15
+msgid "Read Access"
+msgstr "Acceso de lectura"
+
+#: otterwiki/templates/admin/permissions_and_registration.html:15
+msgid "Write Access"
+msgstr "Acceso de escritura"
+
+#: otterwiki/templates/admin/permissions_and_registration.html:15
+msgid "Attachment management / Upload"
+msgstr "Gestión de adjuntos / Subida"
+
+#: otterwiki/templates/admin/permissions_and_registration.html:16
+msgid "Anonymous"
+msgstr "Anónimo"
+
+#: otterwiki/templates/admin/permissions_and_registration.html:16
+msgid "Registered"
+msgstr "Registrado"
+
+#: otterwiki/templates/admin/permissions_and_registration.html:16
+#: otterwiki/templates/admin/user_management.html:15
+#: otterwiki/templates/user.html:43
+msgid "Approved"
+msgstr "Aprobado"
+
+#: otterwiki/templates/admin/permissions_and_registration.html:38
+msgid "Disable registration"
+msgstr "Desactivar el registro"
+
+#: otterwiki/templates/admin/permissions_and_registration.html:41
+msgid ""
+"With a disabled registration no users can sign up. Settings this can be "
+"useful for public wikis with a closed group of editors."
+msgstr ""
+"Con el registro desactivado, nadie puede crear una cuenta. Puede ser útil"
+" para wikis públicos con un grupo cerrado de editores."
+
+#: otterwiki/templates/admin/permissions_and_registration.html:48
+msgid "Registration requires email confirmation"
+msgstr "El registro requiere confirmación por correo electrónico"
+
+#: otterwiki/templates/admin/permissions_and_registration.html:51
+msgid ""
+"With this enabled users have to confirm their email address before the "
+"account is registered. Enabling this on a public wiki is highly recommend"
+" to make life harder for bots and spammers."
+msgstr ""
+"Con esta opción activada, los usuarios deben confirmar su dirección de "
+"correo electrónico antes de que se registre la cuenta. Se recomienda "
+"encarecidamente activarla en un wiki público para dificultar la vida a "
+"bots y spammers."
+
+#: otterwiki/templates/admin/permissions_and_registration.html:59
+msgid "Auto approve of new registered users"
+msgstr "Aprobar automáticamente a los nuevos usuarios registrados"
+
+#: otterwiki/templates/admin/permissions_and_registration.html:62
+msgid "With this option set users will be auto approved."
+msgstr "Con esta opción activada, los usuarios se aprueban automáticamente."
+
+#: otterwiki/templates/admin/permissions_and_registration.html:69
+msgid "Notify admins on new user registration"
+msgstr "Avisar a los administradores cuando se registre un nuevo usuario"
+
+#: otterwiki/templates/admin/permissions_and_registration.html:72
+msgid ""
+"Admin users get a notification mail upon registration (and in case email "
+"confirmation is necessary on confirmation) of a new user."
+msgstr ""
+"Los administradores reciben un correo de aviso cuando se registra un "
+"nuevo usuario (y, si se requiere confirmación por correo, cuando la "
+"confirma)."
+
+#: otterwiki/templates/admin/permissions_and_registration.html:73
+#: otterwiki/templates/admin/permissions_and_registration.html:83
+msgid "This is useful when users are not auto approved."
+msgstr "Es útil cuando los usuarios no se aprueban automáticamente."
+
+#: otterwiki/templates/admin/permissions_and_registration.html:80
+msgid "Notify users when their account was approved"
+msgstr "Avisar a los usuarios cuando se apruebe su cuenta"
+
+#: otterwiki/templates/admin/permissions_and_registration.html:83
+msgid "Users get a notification mail when their account has been approved."
+msgstr "Los usuarios reciben un correo de aviso cuando se aprueba su cuenta."
+
+#: otterwiki/templates/admin/repository_management.html:14
+msgid ""
+"Enable Git Web server <span class=\"text-secondary-dm bg-secondary-"
+"lm\">(Experimental Feature)</span>."
+msgstr ""
+"Activar el servidor web de Git <span class=\"text-secondary-dm bg-"
+"secondary-lm\">(función experimental)</span>."
+
+#: otterwiki/templates/admin/repository_management.html:16
+#, python-format
+msgid ""
+"Enable this to allow users with the permission to READ to clone and pull "
+"the wiki content via git and users with UPLOAD/Attachment management "
+"permissions to push content. When enabled the URL <code>%(url)s</code> "
+"will be displayed in the users settings."
+msgstr ""
+"Activa esta opción para permitir que los usuarios con permiso de LECTURA "
+"clonen el contenido del wiki y hagan pull mediante git, y que los "
+"usuarios con permiso de SUBIDA/gestión de adjuntos hagan push. Cuando "
+"está activada, la URL <code>%(url)s</code> se muestra en la configuración"
+" de los usuarios."
+
+#: otterwiki/templates/admin/repository_management.html:24
+msgid ""
+"Enable pushing to SSH remote <span class=\"text-secondary-dm bg-"
+"secondary-lm\">(Experimental Feature)</span>."
+msgstr ""
+"Activar el push a un remoto SSH <span class=\"text-secondary-dm bg-"
+"secondary-lm\">(función experimental)</span>."
+
+#: otterwiki/templates/admin/repository_management.html:26
+msgid ""
+"Enable this to automatically push all changes to a remote git repository "
+"via SSH on every wiki content change."
+msgstr ""
+"Activa esta opción para hacer push automáticamente de todos los cambios a"
+" un repositorio git remoto mediante SSH cada vez que cambie el contenido "
+"del wiki."
+
+#: otterwiki/templates/admin/repository_management.html:33
+#: otterwiki/templates/admin/repository_management.html:71
+msgid "SSH Remote URL"
+msgstr "URL remota SSH"
+
+#: otterwiki/templates/admin/repository_management.html:36
+msgid "The SSH remote URL to push to. Supported formats:"
+msgstr "La URL remota SSH a la que hacer push. Formatos admitidos:"
+
+#: otterwiki/templates/admin/repository_management.html:40
+#: otterwiki/templates/admin/repository_management.html:78
+msgid "<code>git@github.com:username/repo.git</code> (for GitHub)"
+msgstr "<code>git@github.com:username/repo.git</code> (para GitHub)"
+
+#: otterwiki/templates/admin/repository_management.html:46
+#: otterwiki/templates/admin/repository_management.html:84
+msgid "SSH Private Key (Optional)"
+msgstr "Clave privada SSH (opcional)"
+
+#: otterwiki/templates/admin/repository_management.html:51
+#: otterwiki/templates/admin/repository_management.html:89
+msgid ""
+"Optional SSH private key for authentication. Leave empty if the server "
+"doesn't require authentication or it's being handled externally."
+msgstr ""
+"Clave privada SSH opcional para la autenticación. Déjala vacía si el "
+"servidor no requiere autenticación o si esta se gestiona externamente."
+
+#: otterwiki/templates/admin/repository_management.html:52
+#: otterwiki/templates/admin/repository_management.html:90
+msgid "The key will be stored internally and never displayed after saving."
+msgstr ""
+"La clave se almacenará internamente y nunca se mostrará después de "
+"guardarla."
+
+#: otterwiki/templates/admin/repository_management.html:53
+#: otterwiki/templates/admin/repository_management.html:91
+msgid ""
+"However, for security purposes <strong>it's highly recommended to create "
+"a key specifically to access the defined remote</strong> and nothing "
+"else."
+msgstr ""
+"No obstante, por seguridad <strong>se recomienda encarecidamente crear "
+"una clave específica para acceder al remoto definido</strong> y a nada "
+"más."
+
+#: otterwiki/templates/admin/repository_management.html:62
+msgid ""
+"Enable pulling from SSH remote <span class=\"text-secondary-dm bg-"
+"secondary-lm\">(Experimental Feature)</span>."
+msgstr ""
+"Activar el pull desde un remoto SSH <span class=\"text-secondary-dm bg-"
+"secondary-lm\">(función experimental)</span>."
+
+#: otterwiki/templates/admin/repository_management.html:64
+msgid ""
+"Enable this to automatically pull changes from a remote git repository "
+"via SSH by triggering a webhook URL."
+msgstr ""
+"Activa esta opción para hacer pull automáticamente de los cambios de un "
+"repositorio git remoto mediante SSH al llamar a una URL de webhook."
+
+#: otterwiki/templates/admin/repository_management.html:74
+msgid "The SSH remote URL to pull from. Supported formats:"
+msgstr "La URL remota SSH desde la que hacer pull. Formatos admitidos:"
+
+#: otterwiki/templates/admin/repository_management.html:99
+msgid ""
+"Your webhook URL uses a legacy hash that can be derived from the remote "
+"URL."
+msgstr ""
+"Tu URL de webhook usa un hash antiguo que se puede deducir de la URL "
+"remota."
+
+#: otterwiki/templates/admin/repository_management.html:100
+msgid "Check the box below and save preferences to generate a secure webhook URL."
+msgstr ""
+"Marca la casilla de abajo y guarda las preferencias para generar una URL "
+"de webhook segura."
+
+#: otterwiki/templates/admin/repository_management.html:101
+msgid ""
+"<strong>Note:</strong> the webhook URL will change and any existing "
+"webhook configurations will need to be updated."
+msgstr ""
+"<strong>Nota:</strong> la URL del webhook cambiará y habrá que actualizar"
+" las configuraciones de webhook existentes."
+
+#: otterwiki/templates/admin/repository_management.html:105
+msgid "Regenerate secure webhook URL"
+msgstr "Regenerar una URL de webhook segura"
+
+#: otterwiki/templates/admin/repository_management.html:111
+#: otterwiki/templates/admin/repository_management.html:126
+msgid "Pull webhook URL"
+msgstr "URL del webhook de pull"
+
+#: otterwiki/templates/admin/repository_management.html:115
+msgid "Copy webhook URL"
+msgstr "Copiar la URL del webhook"
+
+#: otterwiki/templates/admin/repository_management.html:121
+msgid ""
+"Use this URL to trigger pulls from external services (e.g., GitHub "
+"webhooks)."
+msgstr ""
+"Usa esta URL para lanzar pulls desde servicios externos (p. ej., webhooks"
+" de GitHub)."
+
+#: otterwiki/templates/admin/repository_management.html:129
+msgid ""
+"The remote URL has been changed. <strong>Save preferences</strong> to "
+"generate the new webhook URL."
+msgstr ""
+"La URL remota ha cambiado. <strong>Guarda las preferencias</strong> para "
+"generar la nueva URL del webhook."
+
+#: otterwiki/templates/admin/repository_management.html:144
+msgid "Push"
+msgstr "Push"
+
+#: otterwiki/templates/admin/repository_management.html:145
+msgid "Force Push"
+msgstr "Push forzado"
+
+#: otterwiki/templates/admin/repository_management.html:145
+msgid ""
+"Are you sure you want to do a force push? This will overwrite the remote "
+"tree and this action is usually irreversible."
+msgstr ""
+"¿Seguro que quieres hacer un push forzado? Se sobrescribirá el árbol "
+"remoto y esta acción suele ser irreversible."
+
+#: otterwiki/templates/admin/repository_management.html:148
+msgid "Pull"
+msgstr "Pull"
+
+#: otterwiki/templates/admin/repository_management.html:149
+msgid "Reset to Remote"
+msgstr "Restablecer al remoto"
+
+#: otterwiki/templates/admin/repository_management.html:149
+msgid ""
+"Are you sure you want to reset to the remote? This will overwrite your "
+"local changes and this action is usually irreversible."
+msgstr ""
+"¿Seguro que quieres restablecer al remoto? Se sobrescribirán tus cambios "
+"locales y esta acción suele ser irreversible."
+
+#: otterwiki/templates/admin/repository_management.html:161
+msgid "Push Results"
+msgstr "Resultados del push"
+
+#: otterwiki/templates/admin/repository_management.html:161
+msgid "Force Push Results"
+msgstr "Resultados del push forzado"
+
+#: otterwiki/templates/admin/repository_management.html:161
+msgid "Pull Results"
+msgstr "Resultados del pull"
+
+#: otterwiki/templates/admin/repository_management.html:161
+msgid "Reset To Remote Results"
+msgstr "Resultados del restablecimiento al remoto"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:9
+msgid "Shortcuts"
+msgstr "Accesos directos"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:12
+msgid ""
+"Shortcuts not listed in the sidebar are available via the <span "
+"class=\"btn btn-square btn-sm\"><i class=\"fas fa-"
+"ellipsis-v\"></i></span> Menu."
+msgstr ""
+"Los accesos directos que no aparecen en la barra lateral están "
+"disponibles en el menú <span class=\"btn btn-square btn-sm\"><i "
+"class=\"fas fa-ellipsis-v\"></i></span>."
+
+#: otterwiki/templates/admin/sidebar_preferences.html:15
+#: otterwiki/templates/wiki.html:13
+msgid "Home"
+msgstr "Inicio"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:16
+#: otterwiki/templates/wiki.html:21 otterwiki/templates/wiki.html:62
+msgid "A - Z"
+msgstr "A - Z"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:17
+#: otterwiki/templates/changelog.html:17 otterwiki/templates/wiki.html:29
+#: otterwiki/templates/wiki.html:70 otterwiki/wiki.py:211
+msgid "Changelog"
+msgstr "Registro de cambios"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:18 otterwiki/views.py:426
+#: otterwiki/views.py:436
+msgid "Create Page"
+msgstr "Crear página"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:30
+msgid "Custom Menu"
+msgstr "Menú personalizado"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:32
+msgid ""
+"The menu is used to display a menu of individual pages or external links "
+"within easy reach in the sidebar."
+msgstr ""
+"El menú sirve para mostrar en la barra lateral, siempre a mano, una lista"
+" de páginas concretas o enlaces externos."
+
+#: otterwiki/templates/admin/sidebar_preferences.html:35
+msgid ""
+"To link a wiki page, enter the full path in the <code>Page/Link</code> "
+"field."
+msgstr ""
+"Para enlazar una página del wiki, escribe la ruta completa en el campo "
+"<code>Page/Link</code>."
+
+#: otterwiki/templates/admin/sidebar_preferences.html:36
+msgid ""
+"For external links, enter the URL in the <code>Page/Link</code> field and"
+" provide a title in the <code>Title</code> field."
+msgstr ""
+"Para enlaces externos, escribe la URL en el campo <code>Page/Link</code> "
+"e indica un título en el campo <code>Title</code>."
+
+#: otterwiki/templates/admin/sidebar_preferences.html:37
+msgid ""
+"You can add <a href=\"https://fontawesome.com/v5/search?q=link&ic=free-"
+"collection\" target=\"_blank\">FontAwesome 5 <i class=\"fas fa-external-"
+"link-alt\"></i></a> icons by entering HTML like <code>&lt;i class=\"fas "
+"fa-question-circle\"&gt;&lt;/i&gt;</code> in the <code>Icon</code> field."
+msgstr ""
+"Puedes añadir iconos de <a "
+"href=\"https://fontawesome.com/v5/search?q=link&ic=free-collection\" "
+"target=\"_blank\">FontAwesome 5 <i class=\"fas fa-external-link-"
+"alt\"></i></a> escribiendo HTML como <code>&lt;i class=\"fas fa-question-"
+"circle\"&gt;&lt;/i&gt;</code> en el campo <code>Icon</code>."
+
+#: otterwiki/templates/admin/sidebar_preferences.html:38
+msgid ""
+"To create a separator, set the <code>Page/Link</code> field to "
+"<code>---</code> and leave other fields empty."
+msgstr ""
+"Para crear un separador, pon <code>---</code> en el campo "
+"<code>Page/Link</code> y deja vacíos los demás campos."
+
+#: otterwiki/templates/admin/sidebar_preferences.html:43
+msgid "Page/Link"
+msgstr "Página/Enlace"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:44
+msgid "Title <em>(optional)</em>"
+msgstr "Título <em>(opcional)</em>"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:45
+msgid "Icon <em>(optional)</em>"
+msgstr "Icono <em>(opcional)</em>"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:66
+msgid "Select page to add"
+msgstr "Selecciona una página para añadir"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:79
+msgid "Page Index Mode"
+msgstr "Modo del índice de páginas"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:81
+msgid "Not displayed"
+msgstr "No se muestra"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:81
+msgid "Directories and pages, sorted"
+msgstr "Directorios y páginas, ordenados"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:81
+msgid "Directories and pages, with directories grouped first"
+msgstr "Directorios y páginas, con los directorios agrupados primero"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:81
+msgid "Directories only"
+msgstr "Solo directorios"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:91
+msgid "Sort case insensitive"
+msgstr "Ordenar sin distinguir mayúsculas y minúsculas"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:96
+msgid "Page Index Focus"
+msgstr "Enfoque del índice de páginas"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:98
+msgid "Focus on current subtree"
+msgstr "Centrarse en el subárbol actual"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:98
+msgid "Always display all top folders and pages"
+msgstr "Mostrar siempre todas las carpetas y páginas de primer nivel"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:98
+msgid "Always display all pages, unfolded"
+msgstr "Mostrar siempre todas las páginas, desplegadas"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:106
+msgid "Maximal depth of pages and directories listed."
+msgstr "Profundidad máxima de las páginas y directorios listados."
+
+#: otterwiki/templates/admin/sidebar_preferences.html:107
+msgid "unlimited"
+msgstr "ilimitada"
+
+#: otterwiki/templates/admin/sidebar_preferences.html:109
+msgid ""
+"With <code>MAXDEPTH=0</code> only the pages and directories of the same "
+"depth will be displayed. With <code>MAXDEPTH=n</code> children up to "
+"depth <code>n</code> will be displayed. Without <code>MAXDEPTH</code> all"
+" children will be displayed."
+msgstr ""
+"Con <code>MAXDEPTH=0</code> solo se muestran las páginas y directorios "
+"del mismo nivel. Con <code>MAXDEPTH=n</code> se muestran los hijos hasta "
+"el nivel <code>n</code>. Sin <code>MAXDEPTH</code> se muestran todos los "
+"hijos."
+
+#: otterwiki/templates/admin/user_management.html:13
+#: otterwiki/templates/user.html:20
+msgid "eMail"
+msgstr "Correo electrónico"
+
+#: otterwiki/templates/admin/user_management.html:14
+#: otterwiki/templates/register.html:22 otterwiki/templates/user.html:16
+msgid "Name"
+msgstr "Nombre"
+
+#: otterwiki/templates/admin/user_management.html:15
+msgid "Ap-<br/>proved"
+msgstr "Apro-<br/>bado"
+
+#: otterwiki/templates/admin/user_management.html:16
+#: otterwiki/templates/user.html:47
+msgid "Read"
+msgstr "Lectura"
+
+#: otterwiki/templates/admin/user_management.html:17
+#: otterwiki/templates/user.html:48
+msgid "Write"
+msgstr "Escritura"
+
+#: otterwiki/templates/admin/user_management.html:18
+#: otterwiki/templates/attachments.html:25 otterwiki/templates/user.html:49
+msgid "Upload"
+msgstr "Subir"
+
+#: otterwiki/templates/admin/user_management.html:79
+msgid ""
+"<em>Privileges granted per user</em> add <em>to the general permissions. "
+"For example, if in general only users with the <strong>Admin</strong> "
+"flag are allowed to upload attachments, the <tt>user@example.org</tt> can"
+" be allowed to <strong>Upload</strong> without being flagged as Admin. "
+"</em>"
+msgstr ""
+"<em>Los privilegios concedidos por usuario</em> se suman <em>a los "
+"permisos generales. Por ejemplo, si en general solo los usuarios con la "
+"marca <strong>Administrador</strong> pueden subir adjuntos, se puede "
+"permitir a <tt>user@example.org</tt> <strong>Subir</strong> sin marcarlo "
+"como administrador. </em>"
+
+#: otterwiki/templates/admin/user_management.html:85
+msgid "Update Privileges"
+msgstr "Actualizar privilegios"
+
+#: otterwiki/templates/admin/user_management.html:87
+#: otterwiki/templates/user.html:10
+msgid "Add User"
+msgstr "Añadir usuario"
+
+#: otterwiki/templates/admin_notification.txt:1
+#, python-format
+msgid "Dear %(sitename)s-Admin,"
+msgstr "Estimado/a administrador/a de %(sitename)s:"
+
+#: otterwiki/templates/admin_notification.txt:3
+#, python-format
+msgid "A new user registered an account at %(sitename)s (An Otter Wiki):"
+msgstr "Un nuevo usuario ha registrado una cuenta en %(sitename)s (An Otter Wiki):"
+
+#: otterwiki/templates/admin_notification.txt:7
+#, python-format
+msgid "Please check if the user needs to be approved here: %(url)s"
+msgstr "Comprueba aquí si hay que aprobar al usuario: %(url)s"
+
+#: otterwiki/templates/admin_notification.txt:9
+#: otterwiki/templates/approvement_notification.txt:7
+#: otterwiki/templates/confirm_email.txt:11
+#: otterwiki/templates/recover_password.txt:8
+#: otterwiki/templates/register.txt:9
+msgid "Cheers!"
+msgstr "¡Saludos!"
+
+#: otterwiki/templates/approvement_notification.txt:1
+#: otterwiki/templates/confirm_email.txt:1
+#: otterwiki/templates/recover_password.txt:1
+#: otterwiki/templates/register.txt:1
+#, python-format
+msgid "Hello %(name)s,"
+msgstr "Hola, %(name)s:"
+
+#: otterwiki/templates/approvement_notification.txt:3
+#, python-format
+msgid "Your account at %(sitename)s (An Otter Wiki) has been approved."
+msgstr "Tu cuenta en %(sitename)s (An Otter Wiki) ha sido aprobada."
+
+#: otterwiki/templates/approvement_notification.txt:5
+#, python-format
+msgid "You can log in here: %(url)s"
+msgstr "Puedes iniciar sesión aquí: %(url)s"
+
+#: otterwiki/templates/attachments.html:10 otterwiki/templates/editor.html:404
+#: otterwiki/templates/snippets/navbardropdown_page_tools.html:6
+msgid "Attachments"
+msgstr "Adjuntos"
+
+#: otterwiki/templates/attachments.html:19
+#: otterwiki/templates/edit_attachment.html:34
+msgid "Choose files to upload"
+msgstr "Elige los archivos que quieres subir"
+
+#: otterwiki/templates/attachments.html:36
+msgid "Thumbail"
+msgstr "Miniatura"
+
+#: otterwiki/templates/blame.html:10
+#: otterwiki/templates/snippets/navbardropdown_page_tools.html:18
+msgid "Blame"
+msgstr "Autoría"
+
+#: otterwiki/templates/blame.html:19
+msgid "Show commit"
+msgstr "Mostrar commit"
+
+#: otterwiki/templates/changelog.html:6
+msgid "Changelog RSS Feed"
+msgstr "Feed RSS del registro de cambios"
+
+#: otterwiki/templates/changelog.html:7
+msgid "Changelog Atom Feed"
+msgstr "Feed Atom del registro de cambios"
+
+#: otterwiki/templates/changelog.html:20
+msgid "Pagination"
+msgstr "Paginación"
+
+#: otterwiki/templates/changelog.html:24
+msgid "First page"
+msgstr "Primera página"
+
+#: otterwiki/templates/changelog.html:30
+msgid "Previous page"
+msgstr "Página anterior"
+
+#: otterwiki/templates/changelog.html:49
+msgid "Next page"
+msgstr "Página siguiente"
+
+#: otterwiki/templates/changelog.html:58
+msgid "Last page"
+msgstr "Última página"
+
+#: otterwiki/templates/changelog.html:75
+msgid "Files"
+msgstr "Archivos"
+
+#: otterwiki/templates/changelog.html:76 otterwiki/templates/diff.html:66
+#: otterwiki/templates/editor.html:379 otterwiki/templates/editor.html:382
+#: otterwiki/templates/history.html:50
+msgid "Commit Message"
+msgstr "Mensaje de commit"
+
+#: otterwiki/templates/changelog.html:82 otterwiki/templates/diff.html:54
+#: otterwiki/templates/diff.html:79 otterwiki/templates/draft.html:9
+#: otterwiki/templates/history.html:68
+#, python-format
+msgid "%(delta)s ago"
+msgstr "hace %(delta)s"
+
+#: otterwiki/templates/changelog.html:83
+#: otterwiki/templates/edit_attachment.html:68
+#: otterwiki/templates/history.html:68
+msgid "revert"
+msgstr "revertir"
+
+#: otterwiki/templates/changelog.html:83
+#: otterwiki/templates/edit_attachment.html:68
+#: otterwiki/templates/history.html:68
+#, python-format
+msgid "revert commit %(revision)s"
+msgstr "revertir el commit %(revision)s"
+
+#: otterwiki/templates/confirm_email.txt:3
+#, python-format
+msgid ""
+"Someone, perhaps you, registered this email address (%(email)s) for an "
+"account\n"
+"at %(sitename)s (An Otter Wiki)."
+msgstr ""
+"Alguien, quizá tú, ha registrado esta dirección de correo electrónico "
+"(%(email)s) para una cuenta\n"
+"en %(sitename)s (An Otter Wiki)."
+
+#: otterwiki/templates/confirm_email.txt:6
+#, python-format
+msgid ""
+"If you wish to proceed with this request, please confirm your email\n"
+"address here: %(url)s"
+msgstr ""
+"Si quieres continuar con esta solicitud, confirma tu dirección de correo\n"
+"electrónico aquí: %(url)s"
+
+#: otterwiki/templates/confirm_email.txt:9
+msgid "If you did not make this request, you can safely ignore this email."
+msgstr "Si no has hecho esta solicitud, puedes ignorar este correo sin problema."
+
+#: otterwiki/templates/create.html:12 otterwiki/templates/create.html:13
+msgid "Page name"
+msgstr "Nombre de la página"
+
+#: otterwiki/templates/create.html:18
+msgid "Create page in subdirectory:"
+msgstr "Crear la página en el subdirectorio:"
+
+#: otterwiki/templates/create.html:29 otterwiki/templates/rename.html:107
+msgid ""
+"Hint: Avoid abbreviations. Try to limit your name to three simple words "
+"or fewer."
+msgstr ""
+"Consejo: evita las abreviaturas. Intenta limitar el nombre a tres "
+"palabras sencillas o menos."
+
+#: otterwiki/templates/create.html:32
+msgid "Create and open in editor"
+msgstr "Crear y abrir en el editor"
+
+#: otterwiki/templates/delete.html:24
+msgid "Recursive remove all attached files and folders"
+msgstr "Eliminar de forma recursiva todos los archivos y carpetas adjuntos"
+
+#: otterwiki/templates/delete.html:27
+#: otterwiki/templates/edit_attachment.html:23
+#: otterwiki/templates/snippets/navbardropdown_rename_remove.html:13
+#: otterwiki/templates/user.html:92
+msgid "Delete"
+msgstr "Eliminar"
+
+#: otterwiki/templates/delete.html:28 otterwiki/templates/editor.html:487
+#: otterwiki/templates/rename.html:111 otterwiki/templates/user.html:75
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: otterwiki/templates/delete.html:31
+msgid "Note: Reverting a delete will restore the deleted file(s)."
+msgstr "Nota: revertir una eliminación restaurará los archivos eliminados."
+
+#: otterwiki/templates/diff.html:29
+msgid "Edit navigation"
+msgstr "Navegación entre ediciones"
+
+#: otterwiki/templates/diff.html:32 otterwiki/templates/diff.html:34
+msgid "Previous edit"
+msgstr "Edición anterior"
+
+#: otterwiki/templates/diff.html:37 otterwiki/templates/diff.html:39
+msgid "Next edit"
+msgstr "Edición siguiente"
+
+#: otterwiki/templates/diff.html:48
+msgid "Side by side"
+msgstr "En paralelo"
+
+#: otterwiki/templates/diff.html:50
+#, python-format
+msgid "Comparing <tt>%(rev_a)s</tt> to <tt>%(rev_b)s</tt>"
+msgstr "Comparando <tt>%(rev_a)s</tt> con <tt>%(rev_b)s</tt>"
+
+#: otterwiki/templates/diff.html:76
+#, python-format
+msgid "Commit <tt>%(revision)s</tt>"
+msgstr "Commit <tt>%(revision)s</tt>"
+
+#: otterwiki/templates/draft.html:9
+msgid "just now"
+msgstr "ahora mismo"
+
+#: otterwiki/templates/draft.html:16
+msgid "Discard draft"
+msgstr "Descartar el borrador"
+
+#: otterwiki/templates/draft.html:18
+msgid "Discard draft, edit latest version"
+msgstr "Descartar el borrador y editar la última versión"
+
+#: otterwiki/templates/draft.html:20
+msgid "Discard draft, start a new page"
+msgstr "Descartar el borrador y empezar una página nueva"
+
+#: otterwiki/templates/draft.html:30
+msgid "Continue editing draft?"
+msgstr "¿Continuar editando el borrador?"
+
+#: otterwiki/templates/draft.html:33
+#, python-format
+msgid "You have a draft of <strong>%(pagepath)s</strong>, saved %(saved)s."
+msgstr "Tienes un borrador de <strong>%(pagepath)s</strong>, guardado %(saved)s."
+
+#: otterwiki/templates/draft.html:39
+msgid "The page might have been changed"
+msgstr "Puede que la página haya cambiado"
+
+#: otterwiki/templates/draft.html:40
+#, python-format
+msgid ""
+"The revision this draft is based on can not be found in the history of "
+"<strong>%(pagename)s</strong>."
+msgstr ""
+"La revisión en la que se basa este borrador no se encuentra en el "
+"historial de <strong>%(pagename)s</strong>."
+
+#: otterwiki/templates/draft.html:41
+msgid "The page might have been changed since the draft was started."
+msgstr "Puede que la página haya cambiado desde que se empezó el borrador."
+
+#: otterwiki/templates/draft.html:43
+msgid "The page has been deleted"
+msgstr "La página ha sido eliminada"
+
+#: otterwiki/templates/draft.html:44
+#, python-format
+msgid ""
+"<strong>%(pagename)s</strong> has been deleted since the draft was "
+"started."
+msgstr ""
+"<strong>%(pagename)s</strong> se ha eliminado desde que se empezó el "
+"borrador."
+
+#: otterwiki/templates/draft.html:46
+msgid "The page has been changed"
+msgstr "La página ha cambiado"
+
+#: otterwiki/templates/draft.html:47
+#, python-format
+msgid ""
+"<strong>%(pagename)s</strong> has been changed since the draft was "
+"started."
+msgstr "<strong>%(pagename)s</strong> ha cambiado desde que se empezó el borrador."
+
+#: otterwiki/templates/draft.html:48
+msgid "Saving the draft overwrites these changes:"
+msgstr "Guardar el borrador sobrescribe estos cambios:"
+
+#: otterwiki/templates/draft.html:60
+#, python-format
+msgid "by %(author)s: %(message)s"
+msgstr "por %(author)s: %(message)s"
+
+#: otterwiki/templates/draft.html:65
+msgid "Show changes"
+msgstr "Mostrar los cambios"
+
+#: otterwiki/templates/draft.html:74 otterwiki/templates/draft.html:92
+msgid "Continue editing draft"
+msgstr "Continuar editando el borrador"
+
+#: otterwiki/templates/draft.html:81
+msgid ""
+"Compared to the stored version, since the version the draft is based on "
+"is not available."
+msgstr ""
+"Comparado con la versión guardada, ya que la versión en la que se basa el"
+" borrador no está disponible."
+
+#: otterwiki/templates/draft.html:97 otterwiki/templates/draft.html:103
+msgid "Latest saved version"
+msgstr "Última versión guardada"
+
+#: otterwiki/templates/draft.html:99
+msgid "New page"
+msgstr "Página nueva"
+
+#: otterwiki/templates/draft.html:101
+msgid "Version the draft is based on"
+msgstr "Versión en la que se basa el borrador"
+
+#: otterwiki/templates/draft.html:107
+msgid "Your draft"
+msgstr "Tu borrador"
+
+#: otterwiki/templates/draft.html:107
+#, python-format
+msgid "saved %(saved)s"
+msgstr "guardado %(saved)s"
+
+#: otterwiki/templates/draft.html:112
+msgid "The draft has no changes."
+msgstr "El borrador no tiene cambios."
+
+#: otterwiki/templates/edit_attachment.html:5
+#, python-format
+msgid "Edit <strong>%(filename)s</strong>"
+msgstr "Editar <strong>%(filename)s</strong>"
+
+#: otterwiki/templates/edit_attachment.html:14
+msgid "New filename"
+msgstr "Nuevo nombre de archivo"
+
+#: otterwiki/templates/edit_attachment.html:22
+#: otterwiki/templates/rename.html:110
+#: otterwiki/templates/snippets/navbardropdown_rename_remove.html:7
+msgid "Rename"
+msgstr "Renombrar"
+
+#: otterwiki/templates/edit_attachment.html:40
+msgid "Replace"
+msgstr "Reemplazar"
+
+#: otterwiki/templates/editor.html:80
+msgid "Undo"
+msgstr "Deshacer"
+
+#: otterwiki/templates/editor.html:81
+msgid "Redo"
+msgstr "Rehacer"
+
+#: otterwiki/templates/editor.html:83 otterwiki/templates/layout.html:136
+#: otterwiki/templates/search.html:11 otterwiki/templates/search.html:41
+#: otterwiki/wiki.py:2220
+msgid "Search"
+msgstr "Buscar"
+
+#: otterwiki/templates/editor.html:84
+msgid "Search and Replace"
+msgstr "Buscar y reemplazar"
+
+#: otterwiki/templates/editor.html:86
+msgid "Bold"
+msgstr "Negrita"
+
+#: otterwiki/templates/editor.html:87
+msgid "Italic"
+msgstr "Cursiva"
+
+#: otterwiki/templates/editor.html:88
+msgid "Strikethrough"
+msgstr "Tachado"
+
+#: otterwiki/templates/editor.html:89
+msgid "Header"
+msgstr "Encabezado"
+
+#: otterwiki/templates/editor.html:90
+msgid "Block Quote"
+msgstr "Cita"
+
+#: otterwiki/templates/editor.html:93
+msgid "List Menu"
+msgstr "Menú de listas"
+
+#: otterwiki/templates/editor.html:101
+msgid "Unordered List"
+msgstr "Lista con viñetas"
+
+#: otterwiki/templates/editor.html:107
+msgid "Ordered List"
+msgstr "Lista numerada"
+
+#: otterwiki/templates/editor.html:113
+msgid "Checklist"
+msgstr "Lista de tareas"
+
+#: otterwiki/templates/editor.html:119
+msgid "Horizontal Rule"
+msgstr "Línea horizontal"
+
+#: otterwiki/templates/editor.html:125
+msgid "Code Menu"
+msgstr "Menú de código"
+
+#: otterwiki/templates/editor.html:133
+msgid "Inline Code"
+msgstr "Código en línea"
+
+#: otterwiki/templates/editor.html:139
+msgid "Code Block"
+msgstr "Bloque de código"
+
+#: otterwiki/templates/editor.html:145
+msgid "Block Menu"
+msgstr "Menú de bloques"
+
+#: otterwiki/templates/editor.html:153
+msgid "Spoiler Block"
+msgstr "Bloque de spoiler"
+
+#: otterwiki/templates/editor.html:159
+msgid "Folded Block"
+msgstr "Bloque plegado"
+
+#: otterwiki/templates/editor.html:165
+msgid "Notice Panel"
+msgstr "Panel de aviso"
+
+#: otterwiki/templates/editor.html:171
+msgid "Warning Panel"
+msgstr "Panel de advertencia"
+
+#: otterwiki/templates/editor.html:177
+msgid "Danger Panel"
+msgstr "Panel de peligro"
+
+#: otterwiki/templates/editor.html:183
+msgid "Alert Menu"
+msgstr "Menú de alertas"
+
+#: otterwiki/templates/editor.html:221
+msgid "References Menu"
+msgstr "Menú de referencias"
+
+#: otterwiki/templates/editor.html:229
+msgid "Link"
+msgstr "Enlace"
+
+#: otterwiki/templates/editor.html:235
+msgid "Footnote"
+msgstr "Nota al pie"
+
+#: otterwiki/templates/editor.html:241
+msgid "Graphics Menu"
+msgstr "Menú de gráficos"
+
+#: otterwiki/templates/editor.html:249
+msgid "Picture"
+msgstr "Imagen"
+
+#: otterwiki/templates/editor.html:255
+msgid "Diagram"
+msgstr "Diagrama"
+
+#: otterwiki/templates/editor.html:261
+msgid "Table Menu"
+msgstr "Menú de tablas"
+
+#: otterwiki/templates/editor.html:269
+msgid "Add / Format Table"
+msgstr "Añadir / formatear tabla"
+
+#: otterwiki/templates/editor.html:275
+msgid "Add Row"
+msgstr "Añadir fila"
+
+#: otterwiki/templates/editor.html:281
+msgid "Remove Row"
+msgstr "Eliminar fila"
+
+#: otterwiki/templates/editor.html:287
+msgid "Move Row up"
+msgstr "Subir fila"
+
+#: otterwiki/templates/editor.html:293
+msgid "Move Row down"
+msgstr "Bajar fila"
+
+#: otterwiki/templates/editor.html:300
+msgid "Add Column"
+msgstr "Añadir columna"
+
+#: otterwiki/templates/editor.html:306
+msgid "Remove Column"
+msgstr "Eliminar columna"
+
+#: otterwiki/templates/editor.html:312
+msgid "Move Column left"
+msgstr "Mover columna a la izquierda"
+
+#: otterwiki/templates/editor.html:318
+msgid "Move Column right"
+msgstr "Mover columna a la derecha"
+
+#: otterwiki/templates/editor.html:325
+msgid "Align left"
+msgstr "Alinear a la izquierda"
+
+#: otterwiki/templates/editor.html:331
+msgid "Align center"
+msgstr "Centrar"
+
+#: otterwiki/templates/editor.html:337
+msgid "Align right"
+msgstr "Alinear a la derecha"
+
+#: otterwiki/templates/editor.html:349 otterwiki/templates/editor.html:368
+msgid "Close"
+msgstr "Cerrar"
+
+#: otterwiki/templates/editor.html:352
+msgid "Unsaved changes"
+msgstr "Cambios sin guardar"
+
+#: otterwiki/templates/editor.html:354
+#, python-format
+msgid ""
+"You have unsaved changes to <strong>%(pagename)s</strong>. Keep them as a"
+" draft to continue editing later, or discard the draft."
+msgstr ""
+"Tienes cambios sin guardar en <strong>%(pagename)s</strong>. Guárdalos "
+"como borrador para seguir editando más tarde, o descarta el borrador."
+
+#: otterwiki/templates/editor.html:358
+msgid "Keep draft and leave"
+msgstr "Guardar borrador y salir"
+
+#: otterwiki/templates/editor.html:359
+msgid "Keep editing"
+msgstr "Seguir editando"
+
+#: otterwiki/templates/editor.html:360
+msgid "Discard changes"
+msgstr "Descartar cambios"
+
+#: otterwiki/templates/editor.html:371
+#, python-format
+msgid "Save %(pagename)s"
+msgstr "Guardar %(pagename)s"
+
+#: otterwiki/templates/editor.html:380
+msgid "Your commit message here"
+msgstr "Escribe aquí tu mensaje de commit"
+
+#: otterwiki/templates/editor.html:383
+msgid "Your (optional) commit message here"
+msgstr "Escribe aquí tu mensaje de commit (opcional)"
+
+#: otterwiki/templates/editor.html:386 otterwiki/templates/editor.html:494
+#: otterwiki/templates/editor.html:498
+msgid "Save"
+msgstr "Guardar"
+
+#: otterwiki/templates/editor.html:408
+msgid "Select an attachment"
+msgstr "Selecciona un adjunto"
+
+#: otterwiki/templates/editor.html:416
+msgid "as link"
+msgstr "como enlace"
+
+#: otterwiki/templates/editor.html:420
+msgid "as image"
+msgstr "como imagen"
+
+#: otterwiki/templates/editor.html:424
+msgid "as link with thumbnail"
+msgstr "como enlace con miniatura"
+
+#: otterwiki/templates/editor.html:427
+msgid "max size in px"
+msgstr "tamaño máx. en px"
+
+#: otterwiki/templates/editor.html:431
+msgid "use absolute path"
+msgstr "usar ruta absoluta"
+
+#: otterwiki/templates/editor.html:433 otterwiki/templates/editor.html:448
+msgid "Copy into the editor"
+msgstr "Copiar en el editor"
+
+#: otterwiki/templates/editor.html:437
+msgid ""
+"Additional media can be added via the 'Attachments' of this page, or, you"
+" can drag and drop a file into the web editor and it will be uploaded and"
+" embedded when the page is saved."
+msgstr ""
+"Puedes añadir más archivos multimedia desde los «Adjuntos» de esta "
+"página, o arrastrar y soltar un archivo en el editor web: se subirá e "
+"insertará al guardar la página."
+
+#: otterwiki/templates/editor.html:443
+msgid "Select a page to link"
+msgstr "Selecciona una página para enlazar"
+
+#: otterwiki/templates/editor.html:449
+msgid "Copy into the editor, use page name as link text"
+msgstr "Copiar en el editor, con el nombre de la página como texto del enlace"
+
+#: otterwiki/templates/editor.html:468 otterwiki/templates/help_syntax.html:9
+#: otterwiki/templates/snippets/documentation-menu.html:26
+msgid "Markdown Syntax"
+msgstr "Sintaxis de Markdown"
+
+#: otterwiki/templates/editor.html:472
+msgid "Full Syntax Guide"
+msgstr "Guía completa de sintaxis"
+
+#: otterwiki/templates/editor.html:500
+msgid "Preview"
+msgstr "Vista previa"
+
+#: otterwiki/templates/editor.html:501
+msgid "Edit"
+msgstr "Editar"
+
+#: otterwiki/templates/editor.html:502 otterwiki/templates/editor.html:918
+msgid "Edit with live preview"
+msgstr "Editar con vista previa en directo"
+
+#: otterwiki/templates/editor.html:518
+msgctxt "editor"
+msgid "Find"
+msgstr "Buscar"
+
+#: otterwiki/templates/editor.html:519
+msgctxt "editor"
+msgid "Replace"
+msgstr "Reemplazar"
+
+#: otterwiki/templates/editor.html:520
+msgctxt "editor"
+msgid "next"
+msgstr "siguiente"
+
+#: otterwiki/templates/editor.html:521
+msgctxt "editor"
+msgid "previous"
+msgstr "anterior"
+
+#: otterwiki/templates/editor.html:522
+msgctxt "editor"
+msgid "all"
+msgstr "todo"
+
+#: otterwiki/templates/editor.html:523
+msgctxt "editor"
+msgid "match case"
+msgstr "mayúsculas/minúsculas"
+
+#: otterwiki/templates/editor.html:524
+msgctxt "editor"
+msgid "regexp"
+msgstr "regexp"
+
+#: otterwiki/templates/editor.html:525
+msgctxt "editor"
+msgid "by word"
+msgstr "palabra completa"
+
+#: otterwiki/templates/editor.html:526
+msgctxt "editor"
+msgid "replace"
+msgstr "reemplazar"
+
+#: otterwiki/templates/editor.html:527
+msgctxt "editor"
+msgid "replace all"
+msgstr "reemplazar todo"
+
+#: otterwiki/templates/editor.html:528
+msgctxt "editor"
+msgid "close"
+msgstr "cerrar"
+
+#: otterwiki/templates/editor.html:529
+msgctxt "editor"
+msgid "current match"
+msgstr "coincidencia actual"
+
+#: otterwiki/templates/editor.html:530
+msgctxt "editor"
+msgid "on line"
+msgstr "en la línea"
+
+#: otterwiki/templates/editor.html:531
+msgctxt "editor"
+msgid "replaced match on line $"
+msgstr "coincidencia reemplazada en la línea $"
+
+#: otterwiki/templates/editor.html:532
+msgctxt "editor"
+msgid "replaced $ matches"
+msgstr "$ coincidencias reemplazadas"
+
+#: otterwiki/templates/editor.html:533
+msgctxt "editor"
+msgid "Go to line"
+msgstr "Ir a la línea"
+
+#: otterwiki/templates/editor.html:534
+msgctxt "editor"
+msgid "go"
+msgstr "ir"
+
+#: otterwiki/templates/editor.html:535
+msgctxt "editor"
+msgid "Folded lines"
+msgstr "Líneas plegadas"
+
+#: otterwiki/templates/editor.html:536
+msgctxt "editor"
+msgid "Unfolded lines"
+msgstr "Líneas desplegadas"
+
+#: otterwiki/templates/editor.html:537
+msgctxt "editor"
+msgid "to"
+msgstr "a"
+
+#: otterwiki/templates/editor.html:538
+msgctxt "editor"
+msgid "folded code"
+msgstr "código plegado"
+
+#: otterwiki/templates/editor.html:539
+msgctxt "editor"
+msgid "unfold"
+msgstr "desplegar"
+
+#: otterwiki/templates/editor.html:540
+msgctxt "editor"
+msgid "Fold line"
+msgstr "Plegar línea"
+
+#: otterwiki/templates/editor.html:541
+msgctxt "editor"
+msgid "Unfold line"
+msgstr "Desplegar línea"
+
+#: otterwiki/templates/editor.html:542
+msgctxt "editor"
+msgid "Control character"
+msgstr "Carácter de control"
+
+#: otterwiki/templates/editor.html:543
+msgctxt "editor"
+msgid "Selection deleted"
+msgstr "Selección eliminada"
+
+#: otterwiki/templates/editor.html:556
+msgid "Uploading file..."
+msgstr "Subiendo archivo..."
+
+#: otterwiki/templates/editor.html:557
+msgid "Error uploading file"
+msgstr "Error al subir el archivo"
+
+#: otterwiki/templates/editor.html:569
+msgid "Enter filename for the attachment:"
+msgstr "Introduce el nombre de archivo del adjunto:"
+
+#: otterwiki/templates/editor.html:861
+msgid "The draft could not be saved."
+msgstr "No se pudo guardar el borrador."
+
+#: otterwiki/templates/editor.html:891
+msgid "The draft could not be discarded."
+msgstr "No se pudo descartar el borrador."
+
+#: otterwiki/templates/editor.html:918
+msgid "Edit without live preview"
+msgstr "Editar sin vista previa en directo"
+
+#: otterwiki/templates/history.html:10
+#: otterwiki/templates/snippets/navbardropdown_page_tools.html:12
+msgid "History"
+msgstr "Historial"
+
+#: otterwiki/templates/history.html:39 otterwiki/templates/history.html:81
+msgid "Compare Revisions"
+msgstr "Comparar revisiones"
+
+#: otterwiki/templates/history.html:68
+#, python-format
+msgid "Show commit %(revision)s"
+msgstr "Mostrar el commit %(revision)s"
+
+#: otterwiki/templates/layout.html:40
+msgid "An Otter Wiki Logo"
+msgstr "Logotipo de An Otter Wiki"
+
+#: otterwiki/templates/layout.html:117
+msgid "Toggle Sidebar"
+msgstr "Mostrar/ocultar la barra lateral"
+
+#: otterwiki/templates/layout.html:145 otterwiki/templates/layout.html:149
+msgid "Language"
+msgstr "Idioma"
+
+#: otterwiki/templates/layout.html:188
+#: otterwiki/templates/snippets/documentation-menu.html:13
+#: otterwiki/views.py:254
+msgid "Help"
+msgstr "Ayuda"
+
+#: otterwiki/templates/layout.html:194
+msgid "Toggle dark mode"
+msgstr "Activar/desactivar el modo oscuro"
+
+#: otterwiki/templates/layout.html:215
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: otterwiki/templates/login.html:14
+msgid "Resend confirmation link."
+msgstr "Reenviar el enlace de confirmación."
+
+#: otterwiki/templates/login.html:20 otterwiki/templates/lost_password.html:7
+#: otterwiki/templates/register.html:7
+msgid "eMail Address"
+msgstr "Correo electrónico"
+
+#: otterwiki/templates/login.html:24 otterwiki/templates/login.html:25
+#: otterwiki/templates/register.html:11 otterwiki/templates/register.html:12
+#: otterwiki/templates/settings.html:104 otterwiki/templates/user.html:24
+msgid "Password"
+msgstr "Contraseña"
+
+#: otterwiki/templates/login.html:30
+msgid "Remember me"
+msgstr "Recordarme"
+
+#: otterwiki/templates/login.html:39
+msgid "Lost your password?"
+msgstr "¿Has olvidado tu contraseña?"
+
+#: otterwiki/templates/lost_password.html:12
+msgid "You will receive an eMail with a recovery link."
+msgstr "Recibirás un correo electrónico con un enlace de recuperación."
+
+#: otterwiki/templates/lost_password.html:15
+msgid "Submit"
+msgstr "Enviar"
+
+#: otterwiki/templates/page404.html:15
+msgid "404 Page not found"
+msgstr "404 Página no encontrada"
+
+#: otterwiki/templates/page404.html:17
+#, python-format
+msgid ""
+"Page \"%(pagename)s\" not found. Do you want to <a "
+"href=\"%(url)s\">create</a> it?"
+msgstr ""
+"No se encontró la página \"%(pagename)s\". ¿Quieres <a "
+"href=\"%(url)s\">crearla</a>?"
+
+#: otterwiki/templates/recover_password.txt:3
+#, python-format
+msgid ""
+"To recover your password for your account at %(sitename)s (An Otter "
+"Wiki),\n"
+"please use the following link:"
+msgstr ""
+"Para recuperar la contraseña de tu cuenta en %(sitename)s (An Otter "
+"Wiki),\n"
+"usa el siguiente enlace:"
+
+#: otterwiki/templates/register.html:15 otterwiki/templates/settings.html:110
+#: otterwiki/templates/settings.html:111 otterwiki/templates/user.html:28
+msgid "Confirm password"
+msgstr "Confirmar contraseña"
+
+#: otterwiki/templates/register.html:16
+msgid "Confirm Password"
+msgstr "Confirmar contraseña"
+
+#: otterwiki/templates/register.html:19
+#, python-format
+msgid "The password must be at least %(num)s characters long."
+msgstr "La contraseña debe tener al menos %(num)s caracteres."
+
+#: otterwiki/templates/register.html:23
+msgid "First and Last name"
+msgstr "Nombre y apellidos"
+
+#: otterwiki/templates/register.txt:3
+#, python-format
+msgid "Thank you for registering your account at %(sitename)s (An Otter Wiki)."
+msgstr "Gracias por registrar tu cuenta en %(sitename)s (An Otter Wiki)."
+
+#: otterwiki/templates/register.txt:5
+#, python-format
+msgid "The password generated for you is: %(password)s"
+msgstr "La contraseña generada para ti es: %(password)s"
+
+#: otterwiki/templates/register.txt:7
+#, python-format
+msgid "Please login here: %(url)s"
+msgstr "Inicia sesión aquí: %(url)s"
+
+#: otterwiki/templates/rename.html:20
+#, python-format
+msgid "There are drafts saved for <strong>%(pagename)s</strong>:"
+msgstr "Hay borradores guardados de <strong>%(pagename)s</strong>:"
+
+#: otterwiki/templates/rename.html:26 otterwiki/templates/rename.html:41
+#, python-format
+msgid "Your draft last updated on <span title=\"%(delta)s ago\">%(date)s</span>"
+msgstr ""
+"Tu borrador, actualizado por última vez el <span title=\"hace "
+"%(delta)s\">%(date)s</span>"
+
+#: otterwiki/templates/rename.html:29 otterwiki/templates/rename.html:44
+#, python-format
+msgid ""
+"%(author)s's draft last updated on <span title=\"%(delta)s "
+"ago\">%(date)s</span>"
+msgstr ""
+"Borrador de %(author)s, actualizado por última vez el <span title=\"hace "
+"%(delta)s\">%(date)s</span>"
+
+#: otterwiki/templates/rename.html:35
+#, python-format
+msgid "There are drafts saved for <strong>%(new_pagename)s</strong>:"
+msgstr "Hay borradores guardados de <strong>%(new_pagename)s</strong>:"
+
+#: otterwiki/templates/rename.html:51
+#, python-format
+msgid ""
+"You can review and edit or discard your drafts for "
+"<strong>%(pagepath)s</strong> <a class=\"hyperlink-underline text-"
+"danger\" href=\"%(old_url)s\">here</a> and "
+"<strong>%(new_pagename)s</strong> <a class=\"hyperlink-underline text-"
+"danger\" href=\"%(new_url)s\">here</a>."
+msgstr ""
+"Puedes revisar y editar o descartar tus borradores de "
+"<strong>%(pagepath)s</strong> <a class=\"hyperlink-underline text-"
+"danger\" href=\"%(old_url)s\">aquí</a> y de "
+"<strong>%(new_pagename)s</strong> <a class=\"hyperlink-underline text-"
+"danger\" href=\"%(new_url)s\">aquí</a>."
+
+#: otterwiki/templates/rename.html:55
+#, python-format
+msgid ""
+"You can review and edit or discard your draft for "
+"<strong>%(pagepath)s</strong> <a class=\"hyperlink-underline text-"
+"danger\" href=\"%(url)s\">here</a>."
+msgstr ""
+"Puedes revisar y editar o descartar tu borrador de "
+"<strong>%(pagepath)s</strong> <a class=\"hyperlink-underline text-"
+"danger\" href=\"%(url)s\">aquí</a>."
+
+#: otterwiki/templates/rename.html:59
+#, python-format
+msgid ""
+"You can review and edit or discard your draft for "
+"<strong>%(new_pagename)s</strong> <a class=\"hyperlink-underline text-"
+"danger\" href=\"%(url)s\">here</a>."
+msgstr ""
+"Puedes revisar y editar o descartar tu borrador de "
+"<strong>%(new_pagename)s</strong> <a class=\"hyperlink-underline text-"
+"danger\" href=\"%(url)s\">aquí</a>."
+
+#: otterwiki/templates/rename.html:65
+msgid ""
+"You can not review, edit or discard the drafts of other users. They will "
+"persist for the current pagename."
+msgstr ""
+"No puedes revisar, editar ni descartar los borradores de otros usuarios. "
+"Se conservarán con el nombre de página actual."
+
+#: otterwiki/templates/rename.html:72
+msgid "New name"
+msgstr "Nuevo nombre"
+
+#: otterwiki/templates/rename.html:76
+msgid "Update backlinks"
+msgstr "Actualizar los enlaces entrantes"
+
+#: otterwiki/templates/rename.html:85
+msgid "Update links pointing to this page"
+msgstr "Actualizar los enlaces que apuntan a esta página"
+
+#: otterwiki/templates/rename.html:96
+msgid "Move page in subdirectory:"
+msgstr "Mover la página al subdirectorio:"
+
+#: otterwiki/templates/revert.html:7
+msgid "Message"
+msgstr "Mensaje"
+
+#: otterwiki/templates/revert.html:12
+msgid "<strong>Hint:</strong>&nbsp;Reverts can be reverted, too."
+msgstr "<strong>Consejo:</strong>&nbsp;las reversiones también se pueden revertir."
+
+#: otterwiki/templates/revert.html:14
+msgid "Revert"
+msgstr "Revertir"
+
+#: otterwiki/templates/search.html:15
+msgid "Search term"
+msgstr "Término de búsqueda"
+
+#: otterwiki/templates/search.html:27
+msgid "Match case"
+msgstr "Distinguir mayúsculas y minúsculas"
+
+#: otterwiki/templates/search.html:31
+msgid "Regular expression"
+msgstr "Expresión regular"
+
+#: otterwiki/templates/search.html:49
+#, python-format
+msgid "Search matched %(num)s page:"
+msgid_plural "Search matched %(num)s pages:"
+msgstr[0] "La búsqueda coincide con %(num)s página:"
+msgstr[1] "La búsqueda coincide con %(num)s páginas:"
+
+#: otterwiki/templates/search.html:53
+msgid "(Name matches)"
+msgstr "(Coincide el nombre)"
+
+#: otterwiki/templates/search.html:55
+#, python-format
+msgid "(Name and %(num)s match found)"
+msgid_plural "(Name and %(num)s matches found)"
+msgstr[0] "(Coincide el nombre y se encontró %(num)s coincidencia)"
+msgstr[1] "(Coincide el nombre y se encontraron %(num)s coincidencias)"
+
+#: otterwiki/templates/search.html:57
+#, python-format
+msgid "(%(num)s match found)"
+msgid_plural "(%(num)s matches found)"
+msgstr[0] "(Se encontró %(num)s coincidencia)"
+msgstr[1] "(Se encontraron %(num)s coincidencias)"
+
+#: otterwiki/templates/search.html:66
+msgid "No match found."
+msgstr "No se encontraron coincidencias."
+
+#: otterwiki/templates/settings.html:16
+#: otterwiki/templates/tools/housekeeping.html:4 otterwiki/tools.py:65
+msgid "Housekeeping"
+msgstr "Mantenimiento"
+
+#: otterwiki/templates/settings.html:35
+msgid "Content and Editing"
+msgstr "Contenido y edición"
+
+#: otterwiki/templates/settings.html:69
+msgid "Change Name"
+msgstr "Cambiar el nombre"
+
+#: otterwiki/templates/settings.html:73
+msgid "First and Lastname"
+msgstr "Nombre y apellidos"
+
+#: otterwiki/templates/settings.html:77
+msgid ""
+"Please note that changing the Name doesn't not change anything in the "
+"edit history."
+msgstr ""
+"Ten en cuenta que cambiar el nombre no modifica nada en el historial de "
+"ediciones."
+
+#: otterwiki/templates/settings.html:80
+msgid "Update Name"
+msgstr "Actualizar el nombre"
+
+#: otterwiki/templates/settings.html:90
+msgid "Change Password"
+msgstr "Cambiar la contraseña"
+
+#: otterwiki/templates/settings.html:96
+msgid "Please update your password"
+msgstr "Actualiza tu contraseña"
+
+#: otterwiki/templates/settings.html:97
+msgid ""
+"The hash method used to store your password is deprecated. Updating your "
+"password will fix that."
+msgstr ""
+"El método de hash usado para guardar tu contraseña está obsoleto. "
+"Actualizar la contraseña lo soluciona."
+
+#: otterwiki/templates/settings.html:103
+msgid "New Password"
+msgstr "Nueva contraseña"
+
+#: otterwiki/templates/settings.html:106
+#, python-format
+msgid "Must be at least %(num)s characters long."
+msgstr "Debe tener al menos %(num)s caracteres."
+
+#: otterwiki/templates/settings.html:113
+msgid "Update Password"
+msgstr "Actualizar la contraseña"
+
+#: otterwiki/templates/settings.html:123
+msgid "Git Repository Access"
+msgstr "Acceso al repositorio Git"
+
+#: otterwiki/templates/settings.html:137
+msgid ""
+"Your current permissions grant you pull and push access. Use your email "
+"address as username and your password as password when asked by your git "
+"client."
+msgstr ""
+"Tus permisos actuales te dan acceso de pull y push. Cuando tu cliente git"
+" te lo pida, usa tu dirección de correo electrónico como nombre de "
+"usuario y tu contraseña como contraseña."
+
+#: otterwiki/templates/settings.html:140
+msgid ""
+"Your current permissions grant you pull access. Use your email address as"
+" username and your password as password when asked by your git client."
+msgstr ""
+"Tus permisos actuales te dan acceso de pull. Cuando tu cliente git te lo "
+"pida, usa tu dirección de correo electrónico como nombre de usuario y tu "
+"contraseña como contraseña."
+
+#: otterwiki/templates/snippets/breadcrumbs.html:3
+msgid "Breadcrumbs"
+msgstr "Ruta de navegación"
+
+#: otterwiki/templates/snippets/documentation-menu.html:7
+#, python-format
+msgid "Back to %(name)s"
+msgstr "Volver a %(name)s"
+
+#: otterwiki/templates/snippets/documentation-menu.html:9
+msgid "Back to the wiki"
+msgstr "Volver al wiki"
+
+#: otterwiki/templates/snippets/documentation-menu.html:19
+msgid "User Guide"
+msgstr "Guía del usuario"
+
+#: otterwiki/templates/snippets/documentation-menu.html:33
+msgid "Plugin Guide"
+msgstr "Guía de plugins"
+
+#: otterwiki/templates/snippets/documentation-menu.html:40
+msgid "Admin Guide"
+msgstr "Guía del administrador"
+
+#: otterwiki/templates/snippets/js_translations.html:6
+msgid "Show the full line"
+msgstr "Mostrar la línea completa"
+
+#: otterwiki/templates/snippets/js_translations.html:7
+msgid "Shorten the line"
+msgstr "Acortar la línea"
+
+#: otterwiki/templates/snippets/menu.html:7
+msgid "Menu"
+msgstr "Menú"
+
+#: otterwiki/templates/snippets/navbar_edit_button.html:3
+msgid "Edit Page"
+msgstr "Editar la página"
+
+#: otterwiki/templates/snippets/navbardropdown_page_tools.html:25
+msgid "View Source"
+msgstr "Ver el código fuente"
+
+#: otterwiki/templates/snippets/syntax.html:11 otterwiki/views.py:209
+msgid "Emphasis"
+msgstr "Énfasis"
+
+#: otterwiki/templates/snippets/syntax.html:14
+#: otterwiki/templates/snippets/syntax.html:21
+msgid "bold"
+msgstr "negrita"
+
+#: otterwiki/templates/snippets/syntax.html:15
+#: otterwiki/templates/snippets/syntax.html:22
+msgid "italics"
+msgstr "cursiva"
+
+#: otterwiki/templates/snippets/syntax.html:16
+#: otterwiki/templates/snippets/syntax.html:23
+msgid "strikethrough"
+msgstr "tachado"
+
+#: otterwiki/templates/snippets/syntax.html:17
+#: otterwiki/templates/snippets/syntax.html:24
+msgid "mark"
+msgstr "resaltado"
+
+#: otterwiki/templates/snippets/syntax.html:27
+msgid ""
+"You can use backslash escapes to generate literal characters that are "
+"used for formatting otherwise, e.g."
+msgstr ""
+"Puedes usar barras invertidas de escape para obtener literalmente "
+"caracteres que, de otro modo, se usan para dar formato, p. ej."
+
+#: otterwiki/templates/snippets/syntax.html:31
+#: otterwiki/templates/snippets/syntax.html:35
+msgid "literal asterisks"
+msgstr "asteriscos literales"
+
+#: otterwiki/templates/snippets/syntax.html:39
+msgid "Paragraphs and Line Breaks"
+msgstr "Párrafos y saltos de línea"
+
+#: otterwiki/templates/snippets/syntax.html:40
+msgid ""
+"To create paragraphs, use a blank line to separate one or more lines of "
+"text. A single newline does <em>not</em> render as a line break: "
+"consecutive lines are joined into one paragraph. To force a line break, "
+"end a line with two or more spaces or with a backslash <code>\\</code>."
+msgstr ""
+"Para crear párrafos, separa una o varias líneas de texto con una línea en"
+" blanco. Un solo salto de línea <em>no</em> se muestra como salto de "
+"línea: las líneas consecutivas se unen en un único párrafo. Para forzar "
+"un salto de línea, termina la línea con dos o más espacios o con una "
+"barra invertida <code>\\</code>."
+
+#: otterwiki/templates/snippets/syntax.html:46
+#: otterwiki/templates/snippets/syntax.html:56
+msgid "A single newline"
+msgstr "Un solo salto de línea"
+
+#: otterwiki/templates/snippets/syntax.html:47
+#: otterwiki/templates/snippets/syntax.html:56
+msgid "is joined into one paragraph."
+msgstr "se une en un único párrafo."
+
+#: otterwiki/templates/snippets/syntax.html:49
+#: otterwiki/templates/snippets/syntax.html:57
+msgid "Two trailing spaces"
+msgstr "Dos espacios al final"
+
+#: otterwiki/templates/snippets/syntax.html:50
+#: otterwiki/templates/snippets/syntax.html:57
+msgid "force a line break."
+msgstr "fuerzan un salto de línea."
+
+#: otterwiki/templates/snippets/syntax.html:52
+#: otterwiki/templates/snippets/syntax.html:58
+msgid "A trailing backslash"
+msgstr "Una barra invertida al final"
+
+#: otterwiki/templates/snippets/syntax.html:53
+#: otterwiki/templates/snippets/syntax.html:58
+msgid "forces a line break, too."
+msgstr "también fuerza un salto de línea."
+
+#: otterwiki/templates/snippets/syntax.html:61
+msgid ""
+"Note: Trailing spaces are invisible in the editor, so the trailing "
+"backslash is often the more practical choice. See the <a "
+"href=\"https://www.markdownguide.org/basic-syntax/#line-breaks\">Markdown"
+" Guide</a> for details."
+msgstr ""
+"Nota: los espacios al final de la línea no se ven en el editor, por lo "
+"que la barra invertida final suele ser la opción más práctica. Consulta "
+"la <a href=\"https://www.markdownguide.org/basic-syntax/#line-"
+"breaks\">Markdown Guide</a> para más detalles."
+
+#: otterwiki/templates/snippets/syntax.html:66 otterwiki/views.py:210
+msgid "Headings"
+msgstr "Encabezados"
+
+#: otterwiki/templates/snippets/syntax.html:69
+#: otterwiki/templates/snippets/syntax.html:70
+msgid "Large header"
+msgstr "Encabezado grande"
+
+#: otterwiki/templates/snippets/syntax.html:73
+#: otterwiki/templates/snippets/syntax.html:74
+msgid "Medium header"
+msgstr "Encabezado mediano"
+
+#: otterwiki/templates/snippets/syntax.html:77
+#: otterwiki/templates/snippets/syntax.html:78
+msgid "Small header"
+msgstr "Encabezado pequeño"
+
+#: otterwiki/templates/snippets/syntax.html:81
+#: otterwiki/templates/snippets/syntax.html:82
+msgid "Tiny header"
+msgstr "Encabezado diminuto"
+
+#: otterwiki/templates/snippets/syntax.html:85 otterwiki/views.py:211
+msgid "Lists"
+msgstr "Listas"
+
+#: otterwiki/templates/snippets/syntax.html:88
+#: otterwiki/templates/snippets/syntax.html:93
+msgid "Generic list items"
+msgstr "Elementos genéricos"
+
+#: otterwiki/templates/snippets/syntax.html:89
+#: otterwiki/templates/snippets/syntax.html:94
+msgid "in an unordered list"
+msgstr "de una lista con viñetas"
+
+#: otterwiki/templates/snippets/syntax.html:101
+#: otterwiki/templates/snippets/syntax.html:107
+msgid "List items"
+msgstr "Elementos"
+
+#: otterwiki/templates/snippets/syntax.html:102
+#: otterwiki/templates/snippets/syntax.html:108
+msgid "in an ordered list"
+msgstr "de una lista numerada"
+
+#: otterwiki/templates/snippets/syntax.html:103
+#: otterwiki/templates/snippets/syntax.html:109
+msgid "numbered with numbers"
+msgstr "numerados con números"
+
+#: otterwiki/templates/snippets/syntax.html:116
+#: otterwiki/templates/snippets/syntax.html:123
+msgid "Numbered list with"
+msgstr "Lista numerada con"
+
+#: otterwiki/templates/snippets/syntax.html:117
+#: otterwiki/templates/snippets/syntax.html:125
+msgid "a nested"
+msgstr "una lista anidada"
+
+#: otterwiki/templates/snippets/syntax.html:118
+#: otterwiki/templates/snippets/syntax.html:126
+msgid "unordered list"
+msgstr "con viñetas"
+
+#: otterwiki/templates/snippets/syntax.html:119
+#: otterwiki/templates/snippets/syntax.html:129
+msgid "inside"
+msgstr "dentro"
+
+#: otterwiki/templates/snippets/syntax.html:132
+msgid ""
+"Note: To create nested sublists, they must be indented the same number of"
+" spaces that a paragraph would need to be in order to be included in the "
+"list item. In other words, sublist markers must match the indentation of "
+"the content of the outer list items."
+msgstr ""
+"Nota: para crear sublistas anidadas, hay que sangrarlas con el mismo "
+"número de espacios que necesitaría un párrafo para formar parte del "
+"elemento de la lista. Dicho de otro modo, los marcadores de la sublista "
+"deben coincidir con la sangría del contenido de los elementos de la lista"
+" exterior."
+
+#: otterwiki/templates/snippets/syntax.html:137
+#: otterwiki/templates/snippets/syntax.html:144
+msgid "First list"
+msgstr "Primera lista"
+
+#: otterwiki/templates/snippets/syntax.html:138
+#: otterwiki/templates/snippets/syntax.html:140
+#: otterwiki/templates/snippets/syntax.html:145
+#: otterwiki/templates/snippets/syntax.html:149
+msgid "of items"
+msgstr "de elementos"
+
+#: otterwiki/templates/snippets/syntax.html:139
+#: otterwiki/templates/snippets/syntax.html:148
+msgid "Second list"
+msgstr "Segunda lista"
+
+#: otterwiki/templates/snippets/syntax.html:152
+msgid ""
+"Note: A blank line between items of the same bullet type does not create "
+"two separate lists — it makes the list <strong>loose</strong>, wrapping "
+"every item in a <code>&lt;p&gt;</code> tag (this follows the CommonMark "
+"standard). To produce two separate lists, use a different bullet "
+"character for the second list (<code>-</code>, <code>*</code>, or "
+"<code>+</code> are all valid)."
+msgstr ""
+"Nota: una línea en blanco entre elementos con el mismo tipo de viñeta no "
+"crea dos listas separadas: hace que la lista sea <strong>holgada</strong>"
+" y envuelve cada elemento en una etiqueta <code>&lt;p&gt;</code> (así lo "
+"establece el estándar CommonMark). Para obtener dos listas separadas, usa"
+" un carácter de viñeta distinto en la segunda lista (<code>-</code>, "
+"<code>*</code> y <code>+</code> son válidos)."
+
+#: otterwiki/templates/snippets/syntax.html:155 otterwiki/views.py:212
+msgid "Links"
+msgstr "Enlaces"
+
+#: otterwiki/templates/snippets/syntax.html:168
+#: otterwiki/templates/snippets/syntax.html:170
+#: otterwiki/templates/snippets/syntax.html:174
+msgid "Text to display"
+msgstr "Texto que se muestra"
+
+#: otterwiki/templates/snippets/syntax.html:189
+#: otterwiki/templates/snippets/syntax.html:192
+msgid "Link with text"
+msgstr "Enlace con texto"
+
+#: otterwiki/templates/snippets/syntax.html:196
+msgid "Note: WikiLink-Style is in compatibility mode."
+msgstr "Nota: el estilo de WikiLink está en modo de compatibilidad."
+
+#: otterwiki/templates/snippets/syntax.html:199 otterwiki/views.py:213
+msgid "Quotes"
+msgstr "Citas"
+
+#: otterwiki/templates/snippets/syntax.html:202
+#: otterwiki/templates/snippets/syntax.html:208
+msgid "This is a quote."
+msgstr "Esto es una cita."
+
+#: otterwiki/templates/snippets/syntax.html:203
+#: otterwiki/templates/snippets/syntax.html:209
+msgid "It can span multiple lines!"
+msgstr "¡Puede ocupar varias líneas!"
+
+#: otterwiki/templates/snippets/syntax.html:204
+#: otterwiki/templates/snippets/syntax.html:210
+msgid "And multiple levels."
+msgstr "Y varios niveles."
+
+#: otterwiki/templates/snippets/syntax.html:205
+#: otterwiki/templates/snippets/syntax.html:211
+msgid "With markdown syntax."
+msgstr "Con sintaxis Markdown."
+
+#: otterwiki/templates/snippets/syntax.html:217 otterwiki/views.py:214
+msgid "Images"
+msgstr "Imágenes"
+
+#: otterwiki/templates/snippets/syntax.html:218
+msgid ""
+"You can copy n paste images directly into the editor, they will be "
+"uploaded as attachments."
+msgstr ""
+"Puedes copiar y pegar imágenes directamente en el editor; se subirán como"
+" adjuntos."
+
+#: otterwiki/templates/snippets/syntax.html:220
+msgid "Check the attachments of a page, there are links for copy'n'paste."
+msgstr ""
+"Consulta los adjuntos de una página: ahí hay enlaces listos para copiar y"
+" pegar."
+
+#: otterwiki/templates/snippets/syntax.html:222 otterwiki/views.py:215
+msgid "Tables"
+msgstr "Tablas"
+
+#: otterwiki/templates/snippets/syntax.html:226
+#: otterwiki/templates/snippets/syntax.html:234
+#: otterwiki/templates/snippets/syntax.html:235
+#: otterwiki/templates/snippets/syntax.html:236
+#, python-format
+msgid "Column %(num)s"
+msgstr "Columna %(num)s"
+
+#: otterwiki/templates/snippets/syntax.html:228
+#: otterwiki/templates/snippets/syntax.html:243
+msgid "Peach"
+msgstr "Melocotón"
+
+#: otterwiki/templates/snippets/syntax.html:229
+#: otterwiki/templates/snippets/syntax.html:248
+msgid "Banana"
+msgstr "Plátano"
+
+#: otterwiki/templates/snippets/syntax.html:255 otterwiki/views.py:216
+msgid "Code"
+msgstr "Código"
+
+#: otterwiki/templates/snippets/syntax.html:259
+#: otterwiki/templates/snippets/syntax.html:261
+#, python-format
+msgid "Inline code %(code)s with backticks."
+msgstr "Código en línea %(code)s con comillas invertidas."
+
+#: otterwiki/templates/snippets/syntax.html:269
+#: otterwiki/templates/snippets/syntax.html:272
+msgid "Code Blocks"
+msgstr "Bloques de código"
+
+#: otterwiki/templates/snippets/syntax.html:278
+msgid ""
+"To add syntax highlighting, specify a language next to the backticks "
+"before the fenced code block."
+msgstr ""
+"Para resaltar la sintaxis, indica un lenguaje junto a las comillas "
+"invertidas que abren el bloque de código."
+
+#: otterwiki/templates/snippets/syntax.html:298
+msgid ""
+"To enable line numbers in the code block, append an equal sign "
+"<code>=</code> to the language."
+msgstr ""
+"Para mostrar números de línea en el bloque de código, añade un signo "
+"igual <code>=</code> después del lenguaje."
+
+#: otterwiki/templates/snippets/syntax.html:312 otterwiki/views.py:217
+msgid "Mathjax"
+msgstr "Mathjax"
+
+#: otterwiki/templates/snippets/syntax.html:316
+#: otterwiki/templates/snippets/syntax.html:318
+#: otterwiki/templates/snippets/syntax.html:342
+#: otterwiki/templates/snippets/syntax.html:346
+msgid "Inline math:"
+msgstr "Matemáticas en línea:"
+
+#: otterwiki/templates/snippets/syntax.html:325
+#: otterwiki/templates/snippets/syntax.html:332
+msgid "Math block:"
+msgstr "Bloque matemático:"
+
+#: otterwiki/templates/snippets/syntax.html:337
+msgid "\\(\\TeX\\) like syntax:"
+msgstr "Sintaxis similar a \\(\\TeX\\):"
+
+#: otterwiki/templates/snippets/syntax.html:352
+msgid "Equation:"
+msgstr "Ecuación:"
+
+#: otterwiki/templates/snippets/syntax.html:361 otterwiki/views.py:218
+msgid "Footnotes"
+msgstr "Notas al pie"
+
+#: otterwiki/templates/snippets/syntax.html:366
+#: otterwiki/templates/snippets/syntax.html:378
+#, python-format
+msgid ""
+"Footnote identifiers%(ref1)s are single characters or words%(ref2)s. And "
+"can be referenced multiple%(ref1)s times."
+msgstr ""
+"Los identificadores de nota al pie%(ref1)s son caracteres sueltos o "
+"palabras%(ref2)s. Y se pueden citar varias veces%(ref1)s."
+
+#: otterwiki/templates/snippets/syntax.html:368
+#: otterwiki/templates/snippets/syntax.html:382
+msgid "Footnotes can be a single line."
+msgstr "Las notas al pie pueden ocupar una sola línea."
+
+#: otterwiki/templates/snippets/syntax.html:370
+#: otterwiki/templates/snippets/syntax.html:383
+msgid "Or more complex."
+msgstr "O ser más complejas."
+
+#: otterwiki/templates/snippets/syntax.html:372
+#: otterwiki/templates/snippets/syntax.html:384
+msgid "Indent paragraphs to include them in the footnote."
+msgstr "Sangra los párrafos para incluirlos en la nota al pie."
+
+#: otterwiki/templates/snippets/syntax.html:374
+#: otterwiki/templates/snippets/syntax.html:385
+msgid "Add as many paragraphs as you like."
+msgstr "Añade tantos párrafos como quieras."
+
+#: otterwiki/templates/snippets/syntax.html:386
+msgid "GNU Terry Pratchett."
+msgstr "GNU Terry Pratchett."
+
+#: otterwiki/templates/snippets/syntax.html:392 otterwiki/views.py:219
+msgid "Abbreviations"
+msgstr "Abreviaturas"
+
+#: otterwiki/templates/snippets/syntax.html:394
+msgid ""
+"Defining abbreviations allows tooltips to display when hovering on those "
+"abbreviations"
+msgstr ""
+"Definir abreviaturas permite mostrar una descripción emergente al pasar "
+"el ratón sobre ellas"
+
+#: otterwiki/templates/snippets/syntax.html:399
+#: otterwiki/templates/snippets/syntax.html:406
+#, python-format
+msgid "The %(html)s specification is maintained by the %(w3c)s."
+msgstr "La especificación de %(html)s la mantiene el %(w3c)s."
+
+#: otterwiki/templates/snippets/syntax.html:400
+#: otterwiki/templates/snippets/syntax.html:404
+msgid "Hyper Text Markup Language"
+msgstr "Hyper Text Markup Language"
+
+#: otterwiki/templates/snippets/syntax.html:401
+#: otterwiki/templates/snippets/syntax.html:405
+msgid "World Wide Web Consortium"
+msgstr "World Wide Web Consortium"
+
+#: otterwiki/templates/snippets/syntax.html:410 otterwiki/views.py:220
+msgid "Blocks"
+msgstr "Bloques"
+
+#: otterwiki/templates/snippets/syntax.html:412
+msgid ""
+"These special blocks are not part of the markdown standard, but are "
+"helpful for structuring content."
+msgstr ""
+"Estos bloques especiales no forman parte del estándar Markdown, pero son "
+"útiles para estructurar el contenido."
+
+#: otterwiki/templates/snippets/syntax.html:415
+msgid "Fancy blocks"
+msgstr "Bloques decorados"
+
+#: otterwiki/templates/snippets/syntax.html:420
+#: otterwiki/templates/snippets/syntax.html:426
+msgid "Head of the block."
+msgstr "Título del bloque."
+
+#: otterwiki/templates/snippets/syntax.html:421
+#: otterwiki/templates/snippets/syntax.html:427
+msgid "formatted"
+msgstr "formato"
+
+#: otterwiki/templates/snippets/syntax.html:421
+#: otterwiki/templates/snippets/syntax.html:428
+#, python-format
+msgid "With %(formatted)s content."
+msgstr "Con contenido con %(formatted)s."
+
+#: otterwiki/templates/snippets/syntax.html:431
+msgid ""
+"Block styles available: <span class=\"alert alert-primary text-"
+"monospace\" style=\"padding: 0.2rem\">info</span>, <span class=\"alert "
+"alert-success text-monospace\" style=\"padding: 0.2rem\">success</span>, "
+"<span class=\"alert alert-secondary text-monospace\" style=\"padding: "
+"0.2rem\">warning</span>, <span class=\"alert alert-danger text-"
+"monospace\" style=\"padding: 0.2rem\">danger</span> and <span "
+"class=\"alert text-monospace\" style=\"padding: 0.2rem\">none</span>."
+msgstr ""
+"Estilos de bloque disponibles: <span class=\"alert alert-primary text-"
+"monospace\" style=\"padding: 0.2rem\">info</span>, <span class=\"alert "
+"alert-success text-monospace\" style=\"padding: 0.2rem\">success</span>, "
+"<span class=\"alert alert-secondary text-monospace\" style=\"padding: "
+"0.2rem\">warning</span>, <span class=\"alert alert-danger text-"
+"monospace\" style=\"padding: 0.2rem\">danger</span> y <span class=\"alert"
+" text-monospace\" style=\"padding: 0.2rem\">none</span>."
+
+#: otterwiki/templates/snippets/syntax.html:433
+msgid "Spoiler blocks"
+msgstr "Bloques de spoiler"
+
+#: otterwiki/templates/snippets/syntax.html:437
+#: otterwiki/templates/snippets/syntax.html:443
+msgid "Spoiler blocks reveal their content on click on the icon."
+msgstr "Los bloques de spoiler muestran su contenido al hacer clic en el icono."
+
+#: otterwiki/templates/snippets/syntax.html:448
+msgid "Folded blocks"
+msgstr "Bloques plegados"
+
+#: otterwiki/templates/snippets/syntax.html:452
+#: otterwiki/templates/snippets/syntax.html:459
+msgid "Headline is used as summary"
+msgstr "El título se usa como resumen"
+
+#: otterwiki/templates/snippets/syntax.html:453
+#: otterwiki/templates/snippets/syntax.html:461
+msgid "with the details folded."
+msgstr "con los detalles plegados."
+
+#: otterwiki/templates/snippets/syntax.html:465
+msgid "Alerts"
+msgstr "Alertas"
+
+#: otterwiki/templates/snippets/syntax.html:470
+#: otterwiki/templates/snippets/syntax.html:474
+msgid "Useful for highlighting special information."
+msgstr "Útil para destacar información especial."
+
+#: otterwiki/templates/snippets/syntax.html:477
+msgid ""
+"Alerts available: <code>[!NOTE]</code>, <code>[!TIP]</code>, "
+"<code>[!IMPORTANT]</code>, <code>[!WARNING]</code> and "
+"<code>[!CAUTION]</code>."
+msgstr ""
+"Alertas disponibles: <code>[!NOTE]</code>, <code>[!TIP]</code>, "
+"<code>[!IMPORTANT]</code>, <code>[!WARNING]</code> y "
+"<code>[!CAUTION]</code>."
+
+#: otterwiki/templates/snippets/syntax.html:479 otterwiki/views.py:221
+msgid "Diagrams"
+msgstr "Diagramas"
+
+#: otterwiki/templates/snippets/syntax.html:481
+msgid ""
+"Using <a href=\"https://mermaid.js.org/\">Mermaid</a> you can create "
+"diagrams and visualizations in your wiki pages."
+msgstr ""
+"Con <a href=\"https://mermaid.js.org/\">Mermaid</a> puedes crear "
+"diagramas y visualizaciones en las páginas del wiki."
+
+#: otterwiki/templates/snippets/syntax.html:504
+msgid ""
+"Mermaid support all kinds of diagrams: flowcharts, class diagrams, pie "
+"charts, mindmaps, etc. For more information see the <a "
+"href=\"https://mermaid.js.org/intro/syntax-reference.html\">Mermaid "
+"Documentation</a>."
+msgstr ""
+"Mermaid admite todo tipo de diagramas: diagramas de flujo, diagramas de "
+"clases, gráficos circulares, mapas mentales, etc. Para más información, "
+"consulta la <a href=\"https://mermaid.js.org/intro/syntax-"
+"reference.html\">documentación de Mermaid</a>."
+
+#: otterwiki/templates/snippets/syntax.html:506
+msgid "Embeddings"
+msgstr "Incrustaciones"
+
+#: otterwiki/templates/snippets/syntax.html:508
+msgid ""
+"An Otter Wiki supports Embeddings which are beyond the official Markdown "
+"syntax."
+msgstr ""
+"An Otter Wiki admite incrustaciones que van más allá de la sintaxis "
+"oficial de Markdown."
+
+#: otterwiki/templates/snippets/syntax.html:518
+msgid ""
+"See the <a href=\"/-/help/plugins#syntaxembeddings\">Syntax/Embedding "
+"Guide</a> for details."
+msgstr ""
+"Consulta la <a href=\"/-/help/plugins#syntaxembeddings\">guía de sintaxis"
+" e incrustaciones</a> para más detalles."
+
+#: otterwiki/templates/snippets/syntax.html:520
+msgid "Remark"
+msgstr "Observación"
+
+#: otterwiki/templates/snippets/syntax.html:521
+msgid ""
+"There's actually a lot more to Markdown than this. See the official <a "
+"href=\"http://daringfireball.net/projects/markdown/basics\">introduction</a>"
+" and <a "
+"href=\"http://daringfireball.net/projects/markdown/syntax\">syntax</a> "
+"for more information."
+msgstr ""
+"Markdown tiene en realidad mucho más que esto. Consulta la <a "
+"href=\"http://daringfireball.net/projects/markdown/basics\">introducción</a>"
+" y la <a "
+"href=\"http://daringfireball.net/projects/markdown/syntax\">sintaxis</a> "
+"oficiales para más información."
+
+#: otterwiki/templates/snippets/syntax.html:525
+msgid ""
+"Please Note: An Otter Wiki is not using the official implementation. This"
+" might lead to small differences in the little things."
+msgstr ""
+"Ten en cuenta: An Otter Wiki no usa la implementación oficial. Esto puede"
+" provocar pequeñas diferencias en los detalles."
+
+#: otterwiki/templates/snippets/toc.html:5
+msgid "On this page"
+msgstr "En esta página"
+
+#: otterwiki/templates/syntax.html:4 otterwiki/templates/syntax.html:21
+msgid "An Otter Wiki - Markdown Guide"
+msgstr "An Otter Wiki - Guía de Markdown"
+
+#: otterwiki/templates/tools/housekeeping.html:7
+msgid "Drafts"
+msgstr "Borradores"
+
+#: otterwiki/templates/tools/housekeeping.html:12
+msgid ""
+"This is the list of your drafts in the wiki. You can review each one or "
+"delete any you no longer need."
+msgstr ""
+"Esta es la lista de tus borradores en el wiki. Puedes revisar cada uno o "
+"eliminar los que ya no necesites."
+
+#: otterwiki/templates/tools/housekeeping.html:23
+#: otterwiki/templates/tools/housekeeping_brokenwikilinks.html:18
+#: otterwiki/templates/tools/housekeeping_brokenwikilinks.html:50
+#: otterwiki/templates/tools/housekeeping_emptypages.html:22
+msgid "Page"
+msgstr "Página"
+
+#: otterwiki/templates/tools/housekeeping.html:24
+msgid "Draft created"
+msgstr "Borrador creado"
+
+#: otterwiki/templates/tools/housekeeping.html:25
+msgid "Revision"
+msgstr "Revisión"
+
+#: otterwiki/templates/tools/housekeeping.html:26
+msgid "Page last changed"
+msgstr "Último cambio de la página"
+
+#: otterwiki/templates/tools/housekeeping.html:65
+msgid "Delete selected drafts"
+msgstr "Eliminar los borradores seleccionados"
+
+#: otterwiki/templates/tools/housekeeping.html:69
+msgid "No drafts found."
+msgstr "No se encontraron borradores."
+
+#: otterwiki/templates/tools/housekeeping.html:77
+msgid "Empty Pages"
+msgstr "Páginas vacías"
+
+#: otterwiki/templates/tools/housekeeping.html:84
+msgid "Broken WikiLinks"
+msgstr "WikiLinks rotos"
+
+#: otterwiki/templates/tools/housekeeping.html:93
+msgid "Git Garbage Collection"
+msgstr "Recolección de basura de Git"
+
+#: otterwiki/templates/tools/housekeeping.html:100
+msgid "Security Check"
+msgstr "Comprobación de seguridad"
+
+#: otterwiki/templates/tools/housekeeping.html:101
+msgid ""
+"The security check provides an overview of your wiki's security, "
+"highlighting potentially problematic issues. It is purely informational "
+"and safe to run in any environment at any time."
+msgstr ""
+"La comprobación de seguridad ofrece una visión general de la seguridad de"
+" tu wiki y destaca los problemas potenciales. Es puramente informativa y "
+"se puede ejecutar sin riesgo en cualquier entorno y en cualquier momento."
+
+#: otterwiki/templates/tools/housekeeping.html:106
+msgid "Issue"
+msgstr "Problema"
+
+#: otterwiki/templates/tools/housekeeping.html:107
+msgid "Severity"
+msgstr "Gravedad"
+
+#: otterwiki/templates/tools/housekeeping.html:108
+#: otterwiki/templates/tools/housekeeping.html:127
+msgid "Description"
+msgstr "Descripción"
+
+#: otterwiki/templates/tools/housekeeping.html:116
+msgid "No security issues found. Your wiki looks good!"
+msgstr "No se encontraron problemas de seguridad. ¡Tu wiki está en buen estado!"
+
+#: otterwiki/templates/tools/housekeeping.html:119
+msgid "An error occurred while running the security check."
+msgstr "Se produjo un error al ejecutar la comprobación de seguridad."
+
+#: otterwiki/templates/tools/housekeeping.html:122
+msgid "Passed checks (<span id=\"security-check-passed-count\">0</span>)"
+msgstr ""
+"Comprobaciones superadas (<span id=\"security-check-passed-"
+"count\">0</span>)"
+
+#: otterwiki/templates/tools/housekeeping.html:126
+msgid "Check"
+msgstr "Comprobación"
+
+#: otterwiki/templates/tools/housekeeping.html:135
+#: otterwiki/templates/tools/housekeeping.html:318
+msgid "Perform security check"
+msgstr "Ejecutar la comprobación de seguridad"
+
+#: otterwiki/templates/tools/housekeeping.html:160
+msgid "CRITICAL"
+msgstr "CRÍTICA"
+
+#: otterwiki/templates/tools/housekeeping.html:161
+msgid "HIGH"
+msgstr "ALTA"
+
+#: otterwiki/templates/tools/housekeeping.html:162
+msgid "MEDIUM"
+msgstr "MEDIA"
+
+#: otterwiki/templates/tools/housekeeping.html:163
+msgid "LOW"
+msgstr "BAJA"
+
+#: otterwiki/templates/tools/housekeeping.html:164
+msgid "NOTICE"
+msgstr "AVISO"
+
+#: otterwiki/templates/tools/housekeeping.html:253
+msgid ""
+"SSL is not enabled for your wiki. Unless you are using the wiki in a "
+"local environment only, this is a major security risk. The easiest way to"
+" add SSL is via a reverse proxy, see <a "
+"href=\"https://otterwiki.com/Installation#reverse-proxy\">the "
+"documentation</a>."
+msgstr ""
+"SSL no está activado en tu wiki. Salvo que uses el wiki solo en un "
+"entorno local, es un riesgo de seguridad grave. La forma más sencilla de "
+"añadir SSL es mediante un proxy inverso; consulta <a "
+"href=\"https://otterwiki.com/Installation#reverse-proxy\">la "
+"documentación</a>."
+
+#: otterwiki/templates/tools/housekeeping.html:256
+msgid "HTTPS not enabled"
+msgstr "HTTPS no está activado"
+
+#: otterwiki/templates/tools/housekeeping.html:262
+msgid "HTTPS is enabled"
+msgstr "HTTPS está activado"
+
+#: otterwiki/templates/tools/housekeeping.html:263
+msgid "The wiki was loaded over an encrypted connection."
+msgstr "El wiki se cargó a través de una conexión cifrada."
+
+#: otterwiki/templates/tools/housekeeping.html:274
+msgid "CSP header missing"
+msgstr "Falta la cabecera CSP"
+
+#: otterwiki/templates/tools/housekeeping.html:275
+msgid ""
+"The Content Security Policy header is not set, which means resources "
+"could be loaded from any origin. This makes the wiki more vulnerable to "
+"cross-site scripting attacks. <a href=\"https://developer.mozilla.org/en-"
+"US/docs/Web/HTTP/Guides/CSP\">Learn more about CSP</a>."
+msgstr ""
+"La cabecera Content Security Policy no está definida, lo que significa "
+"que se pueden cargar recursos desde cualquier origen. Esto hace que el "
+"wiki sea más vulnerable a ataques de cross-site scripting. <a "
+"href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP\">Más"
+" información sobre CSP</a>."
+
+#: otterwiki/templates/tools/housekeeping.html:280
+msgid "CSP header is set"
+msgstr "La cabecera CSP está definida"
+
+#: otterwiki/templates/tools/housekeeping.html:281
+msgid "A Content Security Policy header was returned by the server."
+msgstr "El servidor devolvió una cabecera Content Security Policy."
+
+#: otterwiki/templates/tools/housekeeping.html:296
+msgid "Running security check…"
+msgstr "Ejecutando la comprobación de seguridad…"
+
+#: otterwiki/templates/tools/housekeeping_brokenwikilinks.html:5
+msgid "To keep your wiki clean, please review the broken WikiLinks found below."
+msgstr ""
+"Para mantener tu wiki ordenado, revisa los WikiLinks rotos que aparecen a"
+" continuación."
+
+#: otterwiki/templates/tools/housekeeping_brokenwikilinks.html:6
+#: otterwiki/templates/tools/housekeeping_emptypages.html:6
+#, python-format
+msgid "%(num)s page were checked in %(duration)s."
+msgid_plural "%(num)s pages were checked in %(duration)s."
+msgstr[0] "Se comprobó %(num)s página en %(duration)s."
+msgstr[1] "Se comprobaron %(num)s páginas en %(duration)s."
+
+#: otterwiki/templates/tools/housekeeping_brokenwikilinks.html:8
+#: otterwiki/templates/tools/housekeeping_emptypages.html:8
+msgid "Refresh"
+msgstr "Actualizar"
+
+#: otterwiki/templates/tools/housekeeping_brokenwikilinks.html:13
+msgid "Pages with broken links"
+msgstr "Páginas con enlaces rotos"
+
+#: otterwiki/templates/tools/housekeeping_brokenwikilinks.html:19
+msgid "Broken links"
+msgstr "Enlaces rotos"
+
+#: otterwiki/templates/tools/housekeeping_brokenwikilinks.html:20
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: otterwiki/templates/tools/housekeeping_brokenwikilinks.html:45
+msgid "Most wanted pages"
+msgstr "Páginas más buscadas"
+
+#: otterwiki/templates/tools/housekeeping_brokenwikilinks.html:51
+msgid "Found in"
+msgstr "Encontrado en"
+
+#: otterwiki/templates/tools/housekeeping_brokenwikilinks.html:52
+msgid "Occurrences"
+msgstr "Apariciones"
+
+#: otterwiki/templates/tools/housekeeping_brokenwikilinks.html:78
+#, python-format
+msgid "No broken WikiLinks found. Checked %(num)s page in %(duration)s."
+msgid_plural "No broken WikiLinks found. Checked %(num)s pages in %(duration)s."
+msgstr[0] ""
+"No se encontraron WikiLinks rotos. Se comprobó %(num)s página en "
+"%(duration)s."
+msgstr[1] ""
+"No se encontraron WikiLinks rotos. Se comprobaron %(num)s páginas en "
+"%(duration)s."
+
+#: otterwiki/templates/tools/housekeeping_brokenwikilinks.html:80
+msgid "To find pages with broken WikiLinks, start an analysis."
+msgstr "Para encontrar páginas con WikiLinks rotos, inicia un análisis."
+
+#: otterwiki/templates/tools/housekeeping_brokenwikilinks.html:83
+#: otterwiki/templates/tools/housekeeping_emptypages.html:58
+msgid "Analyse pages"
+msgstr "Analizar las páginas"
+
+#: otterwiki/templates/tools/housekeeping_emptypages.html:5
+#, python-format
+msgid ""
+"To keep your wiki clean, please review the following %(num)s potentially "
+"empty page."
+msgid_plural ""
+"To keep your wiki clean, please review the following %(num)s potentially "
+"empty pages."
+msgstr[0] ""
+"Para mantener tu wiki ordenado, revisa la siguiente página, que podría "
+"estar vacía."
+msgstr[1] ""
+"Para mantener tu wiki ordenado, revisa las siguientes %(num)s páginas, "
+"que podrían estar vacías."
+
+#: otterwiki/templates/tools/housekeeping_emptypages.html:9
+msgid "Delete selected pages"
+msgstr "Eliminar las páginas seleccionadas"
+
+#: otterwiki/templates/tools/housekeeping_emptypages.html:23
+msgid "Analysis"
+msgstr "Análisis"
+
+#: otterwiki/templates/tools/housekeeping_emptypages.html:53
+#, python-format
+msgid "No empty pages found. Checked %(num)s page in %(duration)s."
+msgid_plural "No empty pages found. Checked %(num)s pages in %(duration)s."
+msgstr[0] ""
+"No se encontraron páginas vacías. Se comprobó %(num)s página en "
+"%(duration)s."
+msgstr[1] ""
+"No se encontraron páginas vacías. Se comprobaron %(num)s páginas en "
+"%(duration)s."
+
+#: otterwiki/templates/tools/housekeeping_emptypages.html:55
+msgid "To find potentially empty pages, start an analysis."
+msgstr "Para encontrar páginas que podrían estar vacías, inicia un análisis."
+
+#: otterwiki/templates/tools/housekeeping_gitgc.html:3
+msgid ""
+"Every change made via the wiki is stored as a loose object in the git "
+"repository. Over time many loose objects can slow down saving pages. Git "
+"Garbage Collection packs them and removes unreachable objects by running "
+"<code>git gc</code>."
+msgstr ""
+"Cada cambio hecho desde el wiki se guarda como un objeto suelto en el "
+"repositorio git. Con el tiempo, muchos objetos sueltos pueden ralentizar "
+"el guardado de las páginas. La recolección de basura de Git los empaqueta"
+" y elimina los objetos inaccesibles ejecutando <code>git gc</code>."
+
+#: otterwiki/templates/tools/housekeeping_gitgc.html:5
+#, python-format
+msgid "Git Garbage Collection failed: %(error)s"
+msgstr "La recolección de basura de Git ha fallado: %(error)s"
+
+#: otterwiki/templates/tools/housekeeping_gitgc.html:7
+#, python-format
+msgid "Finished in %(duration)s."
+msgstr "Terminado en %(duration)s."
+
+#: otterwiki/templates/tools/housekeeping_gitgc.html:10
+msgid "Run Git Garbage Collection"
+msgstr "Ejecutar la recolección de basura de Git"
+
+#: otterwiki/templates/user.html:8
+msgid "Edit User"
+msgstr "Editar usuario"
+
+#: otterwiki/templates/user.html:31
+msgid "Flags and Permissions"
+msgstr "Marcas y permisos"
+
+#: otterwiki/templates/user.html:37
+msgid "eMail confirmed"
+msgstr "Correo confirmado"
+
+#: otterwiki/templates/user.html:39
+msgid "If not set, users have to confirm their email address to login."
+msgstr ""
+"Si no está marcado, los usuarios deben confirmar su dirección de correo "
+"electrónico para iniciar sesión."
+
+#: otterwiki/templates/user.html:39
+msgid "User don't need to confirm their eMail address."
+msgstr "Los usuarios no necesitan confirmar su dirección de correo electrónico."
+
+#: otterwiki/templates/user.html:44
+msgid "Auto approval is enabled."
+msgstr "La aprobación automática está activada."
+
+#: otterwiki/templates/user.html:44
+msgid "This flag has to be set by an admin."
+msgstr "Un administrador debe activar esta marca."
+
+#: otterwiki/templates/user.html:50
+msgid "Users flagged as admins always have <strong>all</strong> the permissions."
+msgstr ""
+"Los usuarios marcados como administradores tienen siempre "
+"<strong>todos</strong> los permisos."
+
+#: otterwiki/templates/user.html:74
+msgid "Update"
+msgstr "Actualizar"
+
+#: otterwiki/templates/user.html:74
+msgid "Add"
+msgstr "Añadir"
+
+#: otterwiki/templates/user.html:83
+msgid "Delete User"
+msgstr "Eliminar usuario"
+
+#: otterwiki/templates/user.html:89
+#, python-format
+msgid "Please check to confirm deleting <strong>%(name)s</strong>."
+msgstr ""
+"Marca la casilla para confirmar la eliminación de "
+"<strong>%(name)s</strong>."
+
+#: otterwiki/templates/wiki.html:37 otterwiki/templates/wiki.html:54
+msgid "Create page"
+msgstr "Crear página"
+
+#: otterwiki/tools.py:86
+#, python-format
+msgid "Deleted %(num)s draft."
+msgid_plural "Deleted %(num)s drafts."
+msgstr[0] "Se eliminó %(num)s borrador."
+msgstr[1] "Se eliminaron %(num)s borradores."
+
+#: otterwiki/tools.py:143
+msgid "Page is empty"
+msgstr "La página está vacía"
+
+#: otterwiki/tools.py:149
+msgid "Header only"
+msgstr "Solo encabezado"
+
+#: otterwiki/tools.py:153
+msgid "Less than three lines"
+msgstr "Menos de tres líneas"
+
+#: otterwiki/tools.py:383
+#, python-format
+msgid "%(num)s loose object"
+msgid_plural "%(num)s loose objects"
+msgstr[0] "%(num)s objeto suelto"
+msgstr[1] "%(num)s objetos sueltos"
+
+#: otterwiki/tools.py:384
+#, python-format
+msgid "%(num)s duplicate"
+msgid_plural "%(num)s duplicates"
+msgstr[0] "%(num)s duplicado"
+msgstr[1] "%(num)s duplicados"
+
+#: otterwiki/tools.py:387
+#, python-format
+msgid "Packed %(objects)s (%(size)s), removed %(duplicates)s."
+msgstr "Empaquetados: %(objects)s (%(size)s); eliminados: %(duplicates)s."
+
+#: otterwiki/tools.py:394
+#, python-format
+msgid "Packed %(objects)s (%(size)s)."
+msgstr "Empaquetados: %(objects)s (%(size)s)."
+
+#: otterwiki/tools.py:400
+#, python-format
+msgid "No loose objects to pack, removed %(duplicates)s."
+msgstr "No hay objetos sueltos que empaquetar; eliminados: %(duplicates)s."
+
+#: otterwiki/tools.py:404
+msgid "No loose objects to pack."
+msgstr "No hay objetos sueltos que empaquetar."
+
+#: otterwiki/tools.py:406
+#, python-format
+msgid "Pack size %(before)s → %(after)s."
+msgstr "Tamaño del paquete: %(before)s → %(after)s."
+
+#: otterwiki/tools.py:412
+#, python-format
+msgid "%(num)s loose object kept."
+msgid_plural "%(num)s loose objects kept."
+msgstr[0] "Se conservó %(num)s objeto suelto."
+msgstr[1] "Se conservaron %(num)s objetos sueltos."
+
+#: otterwiki/tools.py:434
+msgid "Unknown task"
+msgstr "Tarea desconocida"
+
+#: otterwiki/util.py:525
+msgid "name cannot be empty"
+msgstr "el nombre no puede estar vacío"
+
+#: otterwiki/util.py:535
+#, python-format
+msgid "name must be at least %(num)s character(s) long"
+msgstr "el nombre debe tener al menos %(num)s carácter(es)"
+
+#: otterwiki/util.py:541
+#, python-format
+msgid "name cannot exceed %(num)s characters"
+msgstr "el nombre no puede superar los %(num)s caracteres"
+
+#: otterwiki/util.py:551
+msgid "name contains invisible or control characters"
+msgstr "el nombre contiene caracteres invisibles o de control"
+
+#: otterwiki/util.py:562
+msgid "name can only contain letters, spaces, hyphens, apostrophes, and periods"
+msgstr ""
+"el nombre solo puede contener letras, espacios, guiones, apóstrofos y "
+"puntos"
+
+#: otterwiki/util.py:568
+msgid "name cannot contain consecutive spaces"
+msgstr "el nombre no puede contener espacios consecutivos"
+
+#: otterwiki/util.py:574
+msgid "name cannot contain consecutive special characters"
+msgstr "el nombre no puede contener caracteres especiales consecutivos"
+
+#: otterwiki/util.py:579
+msgid "name must contain at least one letter"
+msgstr "el nombre debe contener al menos una letra"
+
+#: otterwiki/util.py:585
+msgid "name contains too many consecutive repeated characters"
+msgstr "el nombre contiene demasiados caracteres repetidos seguidos"
+
+#: otterwiki/util.py:605
+msgid "name appears to be a placeholder"
+msgstr "el nombre parece un texto de relleno"
+
+#: otterwiki/util.py:609
+msgid "name should not be all uppercase"
+msgstr "el nombre no debe estar todo en mayúsculas"
+
+#: otterwiki/util.py:611
+msgid "name is valid"
+msgstr "el nombre es válido"
+
+#: otterwiki/views.py:177
+msgid "About"
+msgstr "Acerca de"
+
+#: otterwiki/views.py:188
+msgid "Syntax"
+msgstr "Sintaxis"
+
+#: otterwiki/views.py:231
+msgid "Help - Syntax"
+msgstr "Ayuda - Sintaxis"
+
+#: otterwiki/views.py:252
+#, python-format
+msgid "Help - %(topic)s"
+msgstr "Ayuda - %(topic)s"
+
+#: otterwiki/views.py:433 otterwiki/wiki.py:1333
+msgid "Please check the pagename ..."
+msgstr "Comprueba el nombre de la página..."
+
+#: otterwiki/views.py:925 otterwiki/views.py:926
+msgid "Bad Request"
+msgstr "Solicitud incorrecta"
+
+#: otterwiki/wiki.py:228
+#, python-format
+msgid "Revert commit [%(revision)s]"
+msgstr "Revertir el commit [%(revision)s]"
+
+#: otterwiki/wiki.py:241
+#, python-format
+msgid "Error: Unable to revert %(revision)s."
+msgstr "Error: no se pudo revertir %(revision)s."
+
+#: otterwiki/wiki.py:246
+#, python-format
+msgid "Reverted commit %(revision)s."
+msgstr "Se revirtió el commit %(revision)s."
+
+#: otterwiki/wiki.py:273
+#, python-format
+msgid "commit %(revision)s"
+msgstr "commit %(revision)s"
+
+#: otterwiki/wiki.py:291
+msgid "An Otter Wiki - Changelog"
+msgstr "An Otter Wiki - Registro de cambios"
+
+#: otterwiki/wiki.py:294
+msgid "All recent changes to the wiki"
+msgstr "Todos los cambios recientes del wiki"
+
+#: otterwiki/wiki.py:343
+#, python-format
+msgid "Commit %(revision)s: %(files)s"
+msgstr "Commit %(revision)s: %(files)s"
+
+#: otterwiki/wiki.py:506
+#, python-format
+msgid "%(pagename)s - not found"
+msgstr "%(pagename)s - no encontrada"
+
+#: otterwiki/wiki.py:567
+msgid "You lack the permissions to access this wiki. Please wait for approval."
+msgstr ""
+"No tienes permisos para acceder a este wiki. Espera a que se apruebe tu "
+"cuenta."
+
+#: otterwiki/wiki.py:573
+msgid ""
+"You are logged in but lack READ permissions. Please wait for an "
+"administrator to grant access."
+msgstr ""
+"Has iniciado sesión, pero no tienes permiso de LECTURA. Espera a que un "
+"administrador te dé acceso."
+
+#: otterwiki/wiki.py:579
+msgid "You lack the permissions to access this wiki. Please login."
+msgstr "No tienes permisos para acceder a este wiki. Inicia sesión."
+
+#: otterwiki/wiki.py:600
+msgid "Storage error"
+msgstr "Error de almacenamiento"
+
+#: otterwiki/wiki.py:618
+msgid "Not under version control"
+msgstr "Fuera del control de versiones"
+
+#: otterwiki/wiki.py:620
+#, python-format
+msgid ""
+"This page was loaded from the repository but is not added under git "
+"version control. Make a commit on the <a href=\"%(url)s\" class=\"alert-"
+"link\">Edit page</a> to add it."
+msgstr ""
+"Esta página se cargó desde el repositorio, pero no está bajo el control "
+"de versiones de git. Haz un commit en la <a href=\"%(url)s\" class"
+"=\"alert-link\">página de edición</a> para añadirla."
+
+#: otterwiki/wiki.py:825
+#, python-format
+msgid ""
+"%(pagename)s has been changed since the draft was started. Saving the "
+"draft overwrites these changes."
+msgstr ""
+"%(pagename)s ha cambiado desde que se empezó el borrador. Guardar el "
+"borrador sobrescribe estos cambios."
+
+#: otterwiki/wiki.py:851
+#, python-format
+msgid "%(pagename)s - edit"
+msgstr "%(pagename)s - editar"
+
+#: otterwiki/wiki.py:921
+#, python-format
+msgid "%(pagename)s - draft"
+msgstr "%(pagename)s - borrador"
+
+#: otterwiki/wiki.py:957
+msgid "Nothing changed."
+msgstr "No ha cambiado nada."
+
+#: otterwiki/wiki.py:959
+#, python-format
+msgid "%(pagename)s saved."
+msgstr "%(pagename)s guardada."
+
+#: otterwiki/wiki.py:978
+#, python-format
+msgid "%(pagename)s exists already."
+msgstr "%(pagename)s ya existe."
+
+#: otterwiki/wiki.py:1042
+#, python-format
+msgid "%(pagename)s - blame"
+msgstr "%(pagename)s - autoría"
+
+#: otterwiki/wiki.py:1142
+#, python-format
+msgid "%(pagename)s - diff %(rev_a)s %(rev_b)s"
+msgstr "%(pagename)s - diferencias %(rev_a)s %(rev_b)s"
+
+#: otterwiki/wiki.py:1191
+msgid "Please select two revisions to compare."
+msgstr "Selecciona dos revisiones para comparar."
+
+#: otterwiki/wiki.py:1193
+msgid "Please select two different revisions."
+msgstr "Selecciona dos revisiones distintas."
+
+#: otterwiki/wiki.py:1226
+#, python-format
+msgid "%(pagename)s - History"
+msgstr "%(pagename)s - Historial"
+
+#: otterwiki/wiki.py:1331
+msgid "Please provide a name."
+msgstr "Indica un nombre."
+
+#: otterwiki/wiki.py:1336
+msgid "New and old name are the same."
+msgstr "El nombre nuevo y el antiguo son iguales."
+
+#: otterwiki/wiki.py:1340
+#, python-format
+msgid "Unable to rename: %(pagename)s already exists."
+msgstr "No se puede renombrar: %(pagename)s ya existe."
+
+#: otterwiki/wiki.py:1360
+msgid "Renaming failed."
+msgstr "No se pudo renombrar."
+
+#: otterwiki/wiki.py:1387
+#, python-format
+msgid "Rename %(pagename)s"
+msgstr "Renombrar %(pagename)s"
+
+#: otterwiki/wiki.py:1412
+msgid "Nothing to delete."
+msgstr "No hay nada que eliminar."
+
+#: otterwiki/wiki.py:1425
+#, python-format
+msgid "%(pagename)s deleted."
+msgstr "%(pagename)s eliminada."
+
+#: otterwiki/wiki.py:1435
+#, python-format
+msgid "Delete %(pagename)s and the %(num)s file attached?"
+msgid_plural "Delete %(pagename)s and the %(num)s files attached?"
+msgstr[0] "¿Eliminar %(pagename)s y el archivo adjunto?"
+msgstr[1] "¿Eliminar %(pagename)s y los %(num)s archivos adjuntos?"
+
+#: otterwiki/wiki.py:1441
+#, python-format
+msgid "Delete %(pagename)s ?"
+msgstr "¿Eliminar %(pagename)s?"
+
+#: otterwiki/wiki.py:1481
+#, python-format
+msgid "%(pagename)s - Attachments"
+msgstr "%(pagename)s - Adjuntos"
+
+#: otterwiki/wiki.py:1519
+#, python-format
+msgid "Added attachment: %(files)s."
+msgid_plural "Added attachments: %(files)s."
+msgstr[0] "Adjunto añadido: %(files)s."
+msgstr[1] "Adjuntos añadidos: %(files)s."
+
+#: otterwiki/wiki.py:1526
+#, python-format
+msgid "Updated attachment: %(files)s."
+msgstr "Adjunto actualizado: %(files)s."
+
+#: otterwiki/wiki.py:1824
+msgid "Renaming failed"
+msgstr "No se pudo renombrar"
+
+#: otterwiki/wiki.py:1828
+#, python-format
+msgid "Renamed %(old)s to %(new)s"
+msgstr "%(old)s renombrado a %(new)s"
+
+#: otterwiki/wiki.py:1849
+#, python-format
+msgid "Deleted %(filename)s"
+msgstr "%(filename)s eliminado"
+
+#: otterwiki/wiki.py:1851
+msgid "Deleting failed"
+msgstr "No se pudo eliminar"
+
+#: otterwiki/wiki.py:1872
+#, python-format
+msgid "Edit %(filename)s"
+msgstr "Editar %(filename)s"
+
+#: otterwiki/wiki.py:2046
+#, python-format
+msgid "Error in search term: %(error)s"
+msgstr "Error en el término de búsqueda: %(error)s"
+
+#: otterwiki/wiki.py:2200
+msgid "Search regex timed out. Results may be incomplete."
+msgstr ""
+"Se agotó el tiempo de la búsqueda con expresión regular. Puede que los "
+"resultados estén incompletos."
+
+#: otterwiki/wiki.py:2218
+#, python-format
+msgid "Search '%(query)s'"
+msgstr "Buscar «%(query)s»"
+
+#: otterwiki/wiki.py:2422
+msgid "Invalid pagename."
+msgstr "Nombre de página no válido."
+

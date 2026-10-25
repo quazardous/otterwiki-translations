@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "otterwiki-lang-zh-hans-cn"
+version = "0.1.0"
+description = "Chinese (Simplified) translation of An Otter Wiki's interface."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "An Otter Wiki contributors" }]
+requires-python = ">=3.11"
+keywords = ["otterwiki", "wiki", "translation", "i18n", "zh_Hans_CN"]
+classifiers = [
+    "Framework :: Flask",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Chinese (Simplified)",
+    "Topic :: Software Development :: Localization",
+]
+
+[project.urls]
+Homepage = "https://github.com/quazardous/otterwiki-translations"
+Issues = "https://github.com/quazardous/otterwiki-translations/issues"
+
+[project.entry-points.otterwiki]
+lang_zh_hans_cn = "otterwiki_lang_zh_hans_cn"
+
+[tool.hatch.build.targets.wheel]
+packages = ["otterwiki_lang_zh_hans_cn"]

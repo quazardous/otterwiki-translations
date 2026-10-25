@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "otterwiki-lang-es"
+version = "0.1.0"
+description = "Spanish translation of An Otter Wiki's interface."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "An Otter Wiki contributors" }]
+requires-python = ">=3.11"
+keywords = ["otterwiki", "wiki", "translation", "i18n", "es"]
+classifiers = [
+    "Framework :: Flask",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Spanish",
+    "Topic :: Software Development :: Localization",
+]
+
+[project.urls]
+Homepage = "https://github.com/quazardous/otterwiki-translations"
+Issues = "https://github.com/quazardous/otterwiki-translations/issues"
+
+[project.entry-points.otterwiki]
+lang_es = "otterwiki_lang_es"
+
+[tool.hatch.build.targets.wheel]
+packages = ["otterwiki_lang_es"]
